@@ -1,0 +1,57 @@
+
+Names : Abhinav & Vishesh 
+Emails - axc220027@utdallas.edu
+vxw220000@utdallas.edu
+
+
+
+
+1. Describe the approach and methodology used to generate models, and if applicable indicate what differed in preparation of models to predict a single drug treatment vs drug combination treatment. 300 words or less.
+
+The methodology for predicting single drug and drug combination responses involves common preprocessing steps like checking for missing values, checking distribution of variables, Apply PowerTransformer for Box-Cox transformation Use ColumnTransformer for one-hot encoding of categorical columns. Then in training phase standardize the data using StandardScaler and applying SMOTE for upsampling the minority class,  Split the data into training and validation sets. Then finally for modeling utilization of models like AdaBoost, decision tree, random forest. For single drug treatment, features are selected based on mutual information scores, utilizing LabelEncoder for categorical variables. The model undergoes training is validated through cross-validation, with performance assessed using ROC AUC scores and confusion matrices. Also checked overfitting using learning curves. 
+
+In contrast, drug combination treatment models utilize ANOVA F-statistics for feature selection through SelectKBest. Also checked SHAP values. Most of the steps are same as single drug sample but additionally I have used stacking of models like - The base classifier for AdaBoost is a DecisionTreeClassifier, and the model is trained on a split of the resampled data, showcasing its robustness through validation accuracy evaluation.
+
+
+These methodologies efficiently capture distinct features influencing single drug and drug combination responses, providing a comprehensive understanding of predictive factors in both scenarios.
+
+
+
+
+2. Write pseudocode that calculates feature contribution to predictions that could generally be applied to any predictive model. No space limitation.
+
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import accuracy_score
+
+features, labels = load_your_dataset()
+
+X_train, X_test, y_train, y_test = train_test_split(features, labels, test_size=0.2, random_state=4)
+
+tree_classifier = DecisionTreeClassifier()
+
+tree_classifier.fit(X_train, y_train)
+y_pred = tree_classifier.predict(X_test)
+accuracy = accuracy_score(y_test, y_pred)
+print(accuracy)
+
+
+
+
+
+3. Describe any notable patterns observed when comparing important features, or overall model interpretation, of single agents and combinations of the same agents and suggest possible reasons for such pattern. 300 words or less.
+
+When comparing the effectiveness of individual drug treatments to combinations of the same drugs, I observed that the combination often exhibits a synergistic impact. This manifests in several ways: firstly, certain features become more crucial in the combined treatment, indicating that the interaction between the drugs enhances their collective effect. Secondly, the predictive power of models trained on these combinations is notably higher, suggesting that the synergy provides unique insights for better predictions. Additionally, there are distinct patterns in the features of combination treatments, showing interactions that are not as apparent when the drugs are checked individually.
+
+I think the reasons behind these patterns lie in the collaborative nature of the drugs in combination. They might target different pathways, complementing each other's effects, or induce synergistic interactions at a molecular level, amplifying their therapeutic impact. Furthermore, the combination approach allows for optimal dose adjustments, minimizing adverse effects while maximizing efficacy. Recognizing and comprehending these patterns is instrumental in refining treatment strategies. This understanding offers valuable insights into the cooperative effects of combined agents.
+
+
+
+
+
+4. There are a staggeringly large number of potential drug combinations. It is highly desirable to use one drug to overcome the resistance to another drug in various cancers, or to identify synergy where the efficacy of drugs are significantly larger than the additive impact of the same drugs applied alone. However, drug efficacy as well as drug combination efficacy significantly varies across individual tumors, making it challenging to test drug combinations one by one. In a scenario where you had extensive single-drug response data (similar to the data of this challenge given with individual drugs in this challenge), suggest an approach to prioritize drug combination candidates for pairs that have yet to be tested in combination. 300 words or less.
+
+Given the vast number of potential drug combinations and the variable efficacy observed across individual cancers, a practical approach involves harnessing existing single-drug response data to prioritize untested drug pairs for potential synergy. By extracting molecular and cellular characteristics from the extensive dataset, a machine learning model can be trained to decipher the complex relationships between these features and individual drug responses. The trained model is then extended to predict the efficacy of untested drug combinations, offering insights into potential synergies or ways to overcome resistance. The key lies in ranking and prioritizing these predictions, focusing on combinations with high predicted efficacy. While this computational strategy provides a valuable starting point, the real test comes through experimental validation, where the top-ranked drug combinations are rigorously tested to confirm the predicted synergies and assess their actual effectiveness. This method streamlines the identification process, making it more efficient and targeted in the quest to uncover potent drug combinations for cancer treatment.
+
+
+

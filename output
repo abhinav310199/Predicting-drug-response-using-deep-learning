@@ -1,0 +1,1042 @@
+[I 2023-11-19 22:13:04.948 ServerApp] Package jupyterlab took 0.0000s to import
+[I 2023-11-19 22:13:04.952 ServerApp] Package jupyter_server_fileid took 0.0037s to import
+[I 2023-11-19 22:13:04.959 ServerApp] Package jupyter_server_terminals took 0.0070s to import
+[I 2023-11-19 22:13:05.065 ServerApp] Package jupyter_server_ydoc took 0.1057s to import
+[I 2023-11-19 22:13:05.065 ServerApp] Package nbclassic took 0.0000s to import
+[W 2023-11-19 22:13:05.068 ServerApp] A `_jupyter_server_extension_points` function was not found in nbclassic. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2023-11-19 22:13:05.069 ServerApp] Package notebook_shim took 0.0000s to import
+[W 2023-11-19 22:13:05.069 ServerApp] A `_jupyter_server_extension_points` function was not found in notebook_shim. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2023-11-19 22:13:05.073 ServerApp] jupyter_server_fileid | extension was successfully linked.
+[I 2023-11-19 22:13:05.076 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2023-11-19 22:13:05.079 ServerApp] jupyter_server_ydoc | extension was successfully linked.
+[W 2023-11-19 22:13:05.080 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-11-19 22:13:05.080 LabApp] 'base_url' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-11-19 22:13:05.080 LabApp] 'tornado_settings' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+/opt/conda/lib/python3.10/site-packages/traitlets/traitlets.py:3437: FutureWarning: --tornado_settings={"headers": {"Content-Security-Policy": "frame-ancestors https://hackathon2023.radr-ai.com 'self'"}} for dict-traits is deprecated in traitlets 5.0. You can pass --tornado_settings <key=value> ... multiple times to add items to a dict.
+  warn(
+[W 2023-11-19 22:13:05.085 ServerApp] ServerApp.token config is deprecated in 2.0. Use IdentityProvider.token.
+[I 2023-11-19 22:13:05.085 ServerApp] jupyterlab | extension was successfully linked.
+[I 2023-11-19 22:13:05.088 ServerApp] nbclassic | extension was successfully linked.
+[I 2023-11-19 22:13:05.089 ServerApp] Writing Jupyter server cookie secret to /root/.local/share/jupyter/runtime/jupyter_cookie_secret
+[I 2023-11-19 22:13:05.254 ServerApp] notebook_shim | extension was successfully linked.
+/opt/conda/lib/python3.10/site-packages/traitlets/traitlets.py:3437: FutureWarning: --tornado_settings={"headers": {"Content-Security-Policy": "frame-ancestors https://hackathon2023.radr-ai.com 'self'"}} for dict-traits is deprecated in traitlets 5.0. You can pass --tornado_settings <key=value> ... multiple times to add items to a dict.
+  warn(
+[W 2023-11-19 22:13:05.338 ServerApp] All authentication is disabled.  Anyone who can connect to this server will be able to run code.
+[I 2023-11-19 22:13:05.338 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2023-11-19 22:13:05.339 FileIdExtension] Configured File ID manager: ArbitraryFileIdManager
+[I 2023-11-19 22:13:05.339 FileIdExtension] ArbitraryFileIdManager : Configured root dir: /root/capsule
+[I 2023-11-19 22:13:05.339 FileIdExtension] ArbitraryFileIdManager : Configured database path: /root/.local/share/jupyter/file_id_manager.db
+[I 2023-11-19 22:13:05.340 FileIdExtension] ArbitraryFileIdManager : Successfully connected to database file.
+[I 2023-11-19 22:13:05.340 FileIdExtension] ArbitraryFileIdManager : Creating File ID tables and indices with journal_mode = DELETE
+[I 2023-11-19 22:13:05.351 FileIdExtension] Attached event listeners.
+[I 2023-11-19 22:13:05.351 ServerApp] jupyter_server_fileid | extension was successfully loaded.
+[I 2023-11-19 22:13:05.352 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2023-11-19 22:13:05.353 ServerApp] jupyter_server_ydoc | extension was successfully loaded.
+[I 2023-11-19 22:13:05.361 LabApp] JupyterLab extension loaded from /opt/conda/lib/python3.10/site-packages/jupyterlab
+[I 2023-11-19 22:13:05.361 LabApp] JupyterLab application directory is /opt/conda/share/jupyter/lab
+[I 2023-11-19 22:13:05.364 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2023-11-19 22:13:05.371 ServerApp] nbclassic | extension was successfully loaded.
+[I 2023-11-19 22:13:05.372 ServerApp] Serving notebooks from local directory: /root/capsule
+[I 2023-11-19 22:13:05.372 ServerApp] Jupyter Server 2.7.0 is running at:
+[I 2023-11-19 22:13:05.372 ServerApp] http://2121bacece93:8888/cw/a0986a31-244a-4043-bbac-a8f418aecce8/lab
+[I 2023-11-19 22:13:05.372 ServerApp]     http://127.0.0.1:8888/cw/a0986a31-244a-4043-bbac-a8f418aecce8/lab
+[I 2023-11-19 22:13:05.372 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2023-11-19 22:13:06.781 ServerApp] 302 GET /cw/a0986a31-244a-4043-bbac-a8f418aecce8/ (@10.0.187.60) 0.33ms
+[W 2023-11-19 22:13:11.210 LabApp] Could not determine jupyterlab build status without nodejs
+[E 2023-11-19 22:28:18.348 ServerApp] Uncaught exception GET /cw/a0986a31-244a-4043-bbac-a8f418aecce8/api/contents/data/challenge2_files/model_info.tsv/checkpoints?1700432898292 (10.0.187.60)
+    HTTPServerRequest(protocol='http', host='hackathon2023.radr-ai.com', method='GET', uri='/cw/a0986a31-244a-4043-bbac-a8f418aecce8/api/contents/data/challenge2_files/model_info.tsv/checkpoints?1700432898292', version='HTTP/1.1', remote_ip='10.0.187.60')
+    Traceback (most recent call last):
+      File "/opt/conda/lib/python3.10/site-packages/tornado/web.py", line 1786, in _execute
+        result = await result
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_server/services/contents/handlers.py", line 295, in get
+        checkpoints = await ensure_async(cm.list_checkpoints(path))
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_core/utils/__init__.py", line 182, in ensure_async
+        result = await obj
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_server/services/contents/manager.py", line 1079, in list_checkpoints
+        return await self.checkpoints.list_checkpoints(path)
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_server/services/contents/filecheckpoints.py", line 195, in list_checkpoints
+        os_path = self.checkpoint_path(checkpoint_id, path)
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_server/services/contents/filecheckpoints.py", line 119, in checkpoint_path
+        ensure_dir_exists(cp_dir)
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_core/utils/__init__.py", line 25, in ensure_dir_exists
+        os.makedirs(path, mode=mode)
+      File "/opt/conda/lib/python3.10/os.py", line 225, in makedirs
+        mkdir(name, mode)
+    OSError: [Errno 30] Read-only file system: '/root/capsule/data/challenge2_files/.ipynb_checkpoints'
+[W 2023-11-19 22:28:18.355 ServerApp] wrote error: 'Unhandled error'
+    Traceback (most recent call last):
+      File "/opt/conda/lib/python3.10/site-packages/tornado/web.py", line 1786, in _execute
+        result = await result
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_server/services/contents/handlers.py", line 295, in get
+        checkpoints = await ensure_async(cm.list_checkpoints(path))
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_core/utils/__init__.py", line 182, in ensure_async
+        result = await obj
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_server/services/contents/manager.py", line 1079, in list_checkpoints
+        return await self.checkpoints.list_checkpoints(path)
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_server/services/contents/filecheckpoints.py", line 195, in list_checkpoints
+        os_path = self.checkpoint_path(checkpoint_id, path)
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_server/services/contents/filecheckpoints.py", line 119, in checkpoint_path
+        ensure_dir_exists(cp_dir)
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_core/utils/__init__.py", line 25, in ensure_dir_exists
+        os.makedirs(path, mode=mode)
+      File "/opt/conda/lib/python3.10/os.py", line 225, in makedirs
+        mkdir(name, mode)
+    OSError: [Errno 30] Read-only file system: '/root/capsule/data/challenge2_files/.ipynb_checkpoints'
+[E 2023-11-19 22:28:18.356 ServerApp] {
+      "Host": "hackathon2023.radr-ai.com",
+      "Accept": "*/*",
+      "Referer": "https://hackathon2023.radr-ai.com/cw/a0986a31-244a-4043-bbac-a8f418aecce8/lab/tree/data/challenge2_files/model_info.tsv",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15"
+    }
+[E 2023-11-19 22:28:18.356 ServerApp] 500 GET /cw/a0986a31-244a-4043-bbac-a8f418aecce8/api/contents/data/challenge2_files/model_info.tsv/checkpoints?1700432898292 (85370400e8f74876ba83384ee30476b3@10.0.187.60) 8.00ms referer=https://hackathon2023.radr-ai.com/cw/a0986a31-244a-4043-bbac-a8f418aecce8/lab/tree/data/challenge2_files/model_info.tsv
+[E 2023-11-19 22:28:18.440 ServerApp] Uncaught exception GET /cw/a0986a31-244a-4043-bbac-a8f418aecce8/api/contents/data/challenge2_files/model_info.tsv/checkpoints?1700432898294 (10.0.187.60)
+    HTTPServerRequest(protocol='http', host='hackathon2023.radr-ai.com', method='GET', uri='/cw/a0986a31-244a-4043-bbac-a8f418aecce8/api/contents/data/challenge2_files/model_info.tsv/checkpoints?1700432898294', version='HTTP/1.1', remote_ip='10.0.187.60')
+    Traceback (most recent call last):
+      File "/opt/conda/lib/python3.10/site-packages/tornado/web.py", line 1786, in _execute
+        result = await result
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_server/services/contents/handlers.py", line 295, in get
+        checkpoints = await ensure_async(cm.list_checkpoints(path))
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_core/utils/__init__.py", line 182, in ensure_async
+        result = await obj
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_server/services/contents/manager.py", line 1079, in list_checkpoints
+        return await self.checkpoints.list_checkpoints(path)
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_server/services/contents/filecheckpoints.py", line 195, in list_checkpoints
+        os_path = self.checkpoint_path(checkpoint_id, path)
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_server/services/contents/filecheckpoints.py", line 119, in checkpoint_path
+        ensure_dir_exists(cp_dir)
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_core/utils/__init__.py", line 25, in ensure_dir_exists
+        os.makedirs(path, mode=mode)
+      File "/opt/conda/lib/python3.10/os.py", line 225, in makedirs
+        mkdir(name, mode)
+    OSError: [Errno 30] Read-only file system: '/root/capsule/data/challenge2_files/.ipynb_checkpoints'
+[W 2023-11-19 22:28:18.441 ServerApp] wrote error: 'Unhandled error'
+    Traceback (most recent call last):
+      File "/opt/conda/lib/python3.10/site-packages/tornado/web.py", line 1786, in _execute
+        result = await result
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_server/services/contents/handlers.py", line 295, in get
+        checkpoints = await ensure_async(cm.list_checkpoints(path))
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_core/utils/__init__.py", line 182, in ensure_async
+        result = await obj
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_server/services/contents/manager.py", line 1079, in list_checkpoints
+        return await self.checkpoints.list_checkpoints(path)
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_server/services/contents/filecheckpoints.py", line 195, in list_checkpoints
+        os_path = self.checkpoint_path(checkpoint_id, path)
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_server/services/contents/filecheckpoints.py", line 119, in checkpoint_path
+        ensure_dir_exists(cp_dir)
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_core/utils/__init__.py", line 25, in ensure_dir_exists
+        os.makedirs(path, mode=mode)
+      File "/opt/conda/lib/python3.10/os.py", line 225, in makedirs
+        mkdir(name, mode)
+    OSError: [Errno 30] Read-only file system: '/root/capsule/data/challenge2_files/.ipynb_checkpoints'
+[E 2023-11-19 22:28:18.441 ServerApp] {
+      "Host": "hackathon2023.radr-ai.com",
+      "Accept": "*/*",
+      "Referer": "https://hackathon2023.radr-ai.com/cw/a0986a31-244a-4043-bbac-a8f418aecce8/lab/tree/data/challenge2_files/model_info.tsv",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15"
+    }
+[E 2023-11-19 22:28:18.441 ServerApp] 500 GET /cw/a0986a31-244a-4043-bbac-a8f418aecce8/api/contents/data/challenge2_files/model_info.tsv/checkpoints?1700432898294 (85370400e8f74876ba83384ee30476b3@10.0.187.60) 1.01ms referer=https://hackathon2023.radr-ai.com/cw/a0986a31-244a-4043-bbac-a8f418aecce8/lab/tree/data/challenge2_files/model_info.tsv
+[E 2023-11-19 22:29:02.510 ServerApp] Uncaught exception GET /cw/a0986a31-244a-4043-bbac-a8f418aecce8/api/contents/data/challenge2_files/Challenge%202%20Instructions.md/checkpoints?1700432942454 (10.0.187.60)
+    HTTPServerRequest(protocol='http', host='hackathon2023.radr-ai.com', method='GET', uri='/cw/a0986a31-244a-4043-bbac-a8f418aecce8/api/contents/data/challenge2_files/Challenge%202%20Instructions.md/checkpoints?1700432942454', version='HTTP/1.1', remote_ip='10.0.187.60')
+    Traceback (most recent call last):
+      File "/opt/conda/lib/python3.10/site-packages/tornado/web.py", line 1786, in _execute
+        result = await result
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_server/services/contents/handlers.py", line 295, in get
+        checkpoints = await ensure_async(cm.list_checkpoints(path))
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_core/utils/__init__.py", line 182, in ensure_async
+        result = await obj
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_server/services/contents/manager.py", line 1079, in list_checkpoints
+        return await self.checkpoints.list_checkpoints(path)
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_server/services/contents/filecheckpoints.py", line 195, in list_checkpoints
+        os_path = self.checkpoint_path(checkpoint_id, path)
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_server/services/contents/filecheckpoints.py", line 119, in checkpoint_path
+        ensure_dir_exists(cp_dir)
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_core/utils/__init__.py", line 25, in ensure_dir_exists
+        os.makedirs(path, mode=mode)
+      File "/opt/conda/lib/python3.10/os.py", line 225, in makedirs
+        mkdir(name, mode)
+    OSError: [Errno 30] Read-only file system: '/root/capsule/data/challenge2_files/.ipynb_checkpoints'
+[W 2023-11-19 22:29:02.510 ServerApp] wrote error: 'Unhandled error'
+    Traceback (most recent call last):
+      File "/opt/conda/lib/python3.10/site-packages/tornado/web.py", line 1786, in _execute
+        result = await result
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_server/services/contents/handlers.py", line 295, in get
+        checkpoints = await ensure_async(cm.list_checkpoints(path))
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_core/utils/__init__.py", line 182, in ensure_async
+        result = await obj
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_server/services/contents/manager.py", line 1079, in list_checkpoints
+        return await self.checkpoints.list_checkpoints(path)
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_server/services/contents/filecheckpoints.py", line 195, in list_checkpoints
+        os_path = self.checkpoint_path(checkpoint_id, path)
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_server/services/contents/filecheckpoints.py", line 119, in checkpoint_path
+        ensure_dir_exists(cp_dir)
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_core/utils/__init__.py", line 25, in ensure_dir_exists
+        os.makedirs(path, mode=mode)
+      File "/opt/conda/lib/python3.10/os.py", line 225, in makedirs
+        mkdir(name, mode)
+    OSError: [Errno 30] Read-only file system: '/root/capsule/data/challenge2_files/.ipynb_checkpoints'
+[E 2023-11-19 22:29:02.511 ServerApp] {
+      "Host": "hackathon2023.radr-ai.com",
+      "Accept": "*/*",
+      "Referer": "https://hackathon2023.radr-ai.com/cw/a0986a31-244a-4043-bbac-a8f418aecce8/lab/tree/data/challenge2_files/Challenge%202%20Instructions.md",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15"
+    }
+[E 2023-11-19 22:29:02.511 ServerApp] 500 GET /cw/a0986a31-244a-4043-bbac-a8f418aecce8/api/contents/data/challenge2_files/Challenge%202%20Instructions.md/checkpoints?1700432942454 (85370400e8f74876ba83384ee30476b3@10.0.187.60) 1.05ms referer=https://hackathon2023.radr-ai.com/cw/a0986a31-244a-4043-bbac-a8f418aecce8/lab/tree/data/challenge2_files/Challenge%202%20Instructions.md
+[E 2023-11-19 22:29:02.515 ServerApp] Uncaught exception GET /cw/a0986a31-244a-4043-bbac-a8f418aecce8/api/contents/data/challenge2_files/Challenge%202%20Instructions.md/checkpoints?1700432942458 (10.0.187.60)
+    HTTPServerRequest(protocol='http', host='hackathon2023.radr-ai.com', method='GET', uri='/cw/a0986a31-244a-4043-bbac-a8f418aecce8/api/contents/data/challenge2_files/Challenge%202%20Instructions.md/checkpoints?1700432942458', version='HTTP/1.1', remote_ip='10.0.187.60')
+    Traceback (most recent call last):
+      File "/opt/conda/lib/python3.10/site-packages/tornado/web.py", line 1786, in _execute
+        result = await result
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_server/services/contents/handlers.py", line 295, in get
+        checkpoints = await ensure_async(cm.list_checkpoints(path))
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_core/utils/__init__.py", line 182, in ensure_async
+        result = await obj
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_server/services/contents/manager.py", line 1079, in list_checkpoints
+        return await self.checkpoints.list_checkpoints(path)
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_server/services/contents/filecheckpoints.py", line 195, in list_checkpoints
+        os_path = self.checkpoint_path(checkpoint_id, path)
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_server/services/contents/filecheckpoints.py", line 119, in checkpoint_path
+        ensure_dir_exists(cp_dir)
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_core/utils/__init__.py", line 25, in ensure_dir_exists
+        os.makedirs(path, mode=mode)
+      File "/opt/conda/lib/python3.10/os.py", line 225, in makedirs
+        mkdir(name, mode)
+    OSError: [Errno 30] Read-only file system: '/root/capsule/data/challenge2_files/.ipynb_checkpoints'
+[W 2023-11-19 22:29:02.515 ServerApp] wrote error: 'Unhandled error'
+    Traceback (most recent call last):
+      File "/opt/conda/lib/python3.10/site-packages/tornado/web.py", line 1786, in _execute
+        result = await result
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_server/services/contents/handlers.py", line 295, in get
+        checkpoints = await ensure_async(cm.list_checkpoints(path))
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_core/utils/__init__.py", line 182, in ensure_async
+        result = await obj
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_server/services/contents/manager.py", line 1079, in list_checkpoints
+        return await self.checkpoints.list_checkpoints(path)
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_server/services/contents/filecheckpoints.py", line 195, in list_checkpoints
+        os_path = self.checkpoint_path(checkpoint_id, path)
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_server/services/contents/filecheckpoints.py", line 119, in checkpoint_path
+        ensure_dir_exists(cp_dir)
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_core/utils/__init__.py", line 25, in ensure_dir_exists
+        os.makedirs(path, mode=mode)
+      File "/opt/conda/lib/python3.10/os.py", line 225, in makedirs
+        mkdir(name, mode)
+    OSError: [Errno 30] Read-only file system: '/root/capsule/data/challenge2_files/.ipynb_checkpoints'
+[E 2023-11-19 22:29:02.515 ServerApp] {
+      "Host": "hackathon2023.radr-ai.com",
+      "Accept": "*/*",
+      "Referer": "https://hackathon2023.radr-ai.com/cw/a0986a31-244a-4043-bbac-a8f418aecce8/lab/tree/data/challenge2_files/Challenge%202%20Instructions.md",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15"
+    }
+[E 2023-11-19 22:29:02.515 ServerApp] 500 GET /cw/a0986a31-244a-4043-bbac-a8f418aecce8/api/contents/data/challenge2_files/Challenge%202%20Instructions.md/checkpoints?1700432942458 (85370400e8f74876ba83384ee30476b3@10.0.187.60) 0.98ms referer=https://hackathon2023.radr-ai.com/cw/a0986a31-244a-4043-bbac-a8f418aecce8/lab/tree/data/challenge2_files/Challenge%202%20Instructions.md
+[E 2023-11-19 22:29:20.572 ServerApp] Uncaught exception GET /cw/a0986a31-244a-4043-bbac-a8f418aecce8/api/contents/data/challenge2_files/fulvestrantTrain.tsv/checkpoints?1700432960500 (10.0.187.60)
+    HTTPServerRequest(protocol='http', host='hackathon2023.radr-ai.com', method='GET', uri='/cw/a0986a31-244a-4043-bbac-a8f418aecce8/api/contents/data/challenge2_files/fulvestrantTrain.tsv/checkpoints?1700432960500', version='HTTP/1.1', remote_ip='10.0.187.60')
+    Traceback (most recent call last):
+      File "/opt/conda/lib/python3.10/site-packages/tornado/web.py", line 1786, in _execute
+        result = await result
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_server/services/contents/handlers.py", line 295, in get
+        checkpoints = await ensure_async(cm.list_checkpoints(path))
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_core/utils/__init__.py", line 182, in ensure_async
+        result = await obj
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_server/services/contents/manager.py", line 1079, in list_checkpoints
+        return await self.checkpoints.list_checkpoints(path)
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_server/services/contents/filecheckpoints.py", line 195, in list_checkpoints
+        os_path = self.checkpoint_path(checkpoint_id, path)
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_server/services/contents/filecheckpoints.py", line 119, in checkpoint_path
+        ensure_dir_exists(cp_dir)
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_core/utils/__init__.py", line 25, in ensure_dir_exists
+        os.makedirs(path, mode=mode)
+      File "/opt/conda/lib/python3.10/os.py", line 225, in makedirs
+        mkdir(name, mode)
+    OSError: [Errno 30] Read-only file system: '/root/capsule/data/challenge2_files/.ipynb_checkpoints'
+[W 2023-11-19 22:29:20.573 ServerApp] wrote error: 'Unhandled error'
+    Traceback (most recent call last):
+      File "/opt/conda/lib/python3.10/site-packages/tornado/web.py", line 1786, in _execute
+        result = await result
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_server/services/contents/handlers.py", line 295, in get
+        checkpoints = await ensure_async(cm.list_checkpoints(path))
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_core/utils/__init__.py", line 182, in ensure_async
+        result = await obj
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_server/services/contents/manager.py", line 1079, in list_checkpoints
+        return await self.checkpoints.list_checkpoints(path)
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_server/services/contents/filecheckpoints.py", line 195, in list_checkpoints
+        os_path = self.checkpoint_path(checkpoint_id, path)
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_server/services/contents/filecheckpoints.py", line 119, in checkpoint_path
+        ensure_dir_exists(cp_dir)
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_core/utils/__init__.py", line 25, in ensure_dir_exists
+        os.makedirs(path, mode=mode)
+      File "/opt/conda/lib/python3.10/os.py", line 225, in makedirs
+        mkdir(name, mode)
+    OSError: [Errno 30] Read-only file system: '/root/capsule/data/challenge2_files/.ipynb_checkpoints'
+[E 2023-11-19 22:29:20.573 ServerApp] {
+      "Host": "hackathon2023.radr-ai.com",
+      "Accept": "*/*",
+      "Referer": "https://hackathon2023.radr-ai.com/cw/a0986a31-244a-4043-bbac-a8f418aecce8/lab/tree/data/challenge2_files/Challenge%202%20Instructions.md",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15"
+    }
+[E 2023-11-19 22:29:20.573 ServerApp] 500 GET /cw/a0986a31-244a-4043-bbac-a8f418aecce8/api/contents/data/challenge2_files/fulvestrantTrain.tsv/checkpoints?1700432960500 (85370400e8f74876ba83384ee30476b3@10.0.187.60) 1.06ms referer=https://hackathon2023.radr-ai.com/cw/a0986a31-244a-4043-bbac-a8f418aecce8/lab/tree/data/challenge2_files/Challenge%202%20Instructions.md
+[E 2023-11-19 22:29:20.574 ServerApp] Uncaught exception GET /cw/a0986a31-244a-4043-bbac-a8f418aecce8/api/contents/data/challenge2_files/fulvestrantTrain.tsv/checkpoints?1700432960510 (10.0.187.60)
+    HTTPServerRequest(protocol='http', host='hackathon2023.radr-ai.com', method='GET', uri='/cw/a0986a31-244a-4043-bbac-a8f418aecce8/api/contents/data/challenge2_files/fulvestrantTrain.tsv/checkpoints?1700432960510', version='HTTP/1.1', remote_ip='10.0.187.60')
+    Traceback (most recent call last):
+      File "/opt/conda/lib/python3.10/site-packages/tornado/web.py", line 1786, in _execute
+        result = await result
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_server/services/contents/handlers.py", line 295, in get
+        checkpoints = await ensure_async(cm.list_checkpoints(path))
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_core/utils/__init__.py", line 182, in ensure_async
+        result = await obj
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_server/services/contents/manager.py", line 1079, in list_checkpoints
+        return await self.checkpoints.list_checkpoints(path)
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_server/services/contents/filecheckpoints.py", line 195, in list_checkpoints
+        os_path = self.checkpoint_path(checkpoint_id, path)
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_server/services/contents/filecheckpoints.py", line 119, in checkpoint_path
+        ensure_dir_exists(cp_dir)
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_core/utils/__init__.py", line 25, in ensure_dir_exists
+        os.makedirs(path, mode=mode)
+      File "/opt/conda/lib/python3.10/os.py", line 225, in makedirs
+        mkdir(name, mode)
+    OSError: [Errno 30] Read-only file system: '/root/capsule/data/challenge2_files/.ipynb_checkpoints'
+[W 2023-11-19 22:29:20.574 ServerApp] wrote error: 'Unhandled error'
+    Traceback (most recent call last):
+      File "/opt/conda/lib/python3.10/site-packages/tornado/web.py", line 1786, in _execute
+        result = await result
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_server/services/contents/handlers.py", line 295, in get
+        checkpoints = await ensure_async(cm.list_checkpoints(path))
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_core/utils/__init__.py", line 182, in ensure_async
+        result = await obj
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_server/services/contents/manager.py", line 1079, in list_checkpoints
+        return await self.checkpoints.list_checkpoints(path)
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_server/services/contents/filecheckpoints.py", line 195, in list_checkpoints
+        os_path = self.checkpoint_path(checkpoint_id, path)
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_server/services/contents/filecheckpoints.py", line 119, in checkpoint_path
+        ensure_dir_exists(cp_dir)
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_core/utils/__init__.py", line 25, in ensure_dir_exists
+        os.makedirs(path, mode=mode)
+      File "/opt/conda/lib/python3.10/os.py", line 225, in makedirs
+        mkdir(name, mode)
+    OSError: [Errno 30] Read-only file system: '/root/capsule/data/challenge2_files/.ipynb_checkpoints'
+[E 2023-11-19 22:29:20.575 ServerApp] {
+      "Host": "hackathon2023.radr-ai.com",
+      "Accept": "*/*",
+      "Referer": "https://hackathon2023.radr-ai.com/cw/a0986a31-244a-4043-bbac-a8f418aecce8/lab/tree/data/challenge2_files/Challenge%202%20Instructions.md",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15"
+    }
+[E 2023-11-19 22:29:20.575 ServerApp] 500 GET /cw/a0986a31-244a-4043-bbac-a8f418aecce8/api/contents/data/challenge2_files/fulvestrantTrain.tsv/checkpoints?1700432960510 (85370400e8f74876ba83384ee30476b3@10.0.187.60) 1.02ms referer=https://hackathon2023.radr-ai.com/cw/a0986a31-244a-4043-bbac-a8f418aecce8/lab/tree/data/challenge2_files/Challenge%202%20Instructions.md
+[I 2023-11-19 22:32:52.514 ServerApp] Writing notebook-signing key to /root/.local/share/jupyter/notebook_secret
+[W 2023-11-19 22:32:52.515 ServerApp] Notebook code/Fulvestrant_response.ipynb is not trusted
+[I 2023-11-19 22:32:52.953 ServerApp] Kernel started: 1f192e6b-6c57-4c7f-b027-3a78be70eba0
+[I 2023-11-19 22:32:53.496 ServerApp] Connecting to kernel 1f192e6b-6c57-4c7f-b027-3a78be70eba0.
+[I 2023-11-19 22:32:53.497 ServerApp] Connecting to kernel 1f192e6b-6c57-4c7f-b027-3a78be70eba0.
+[I 2023-11-19 22:32:53.499 ServerApp] Connecting to kernel 1f192e6b-6c57-4c7f-b027-3a78be70eba0.
+2023-11-19 22:35:52.424547: I external/local_tsl/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2023-11-19 22:35:52.465038: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2023-11-19 22:35:52.465053: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2023-11-19 22:35:52.466088: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2023-11-19 22:35:52.472288: I external/local_tsl/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2023-11-19 22:35:52.472723: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-11-19 22:35:53.273849: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+[I 2023-11-19 22:36:52.833 ServerApp] Saving file at /code/Fulvestrant_response.ipynb
+[W 2023-11-19 22:36:52.833 ServerApp] Notebook code/Fulvestrant_response.ipynb is not trusted
+[I 2023-11-19 22:38:52.959 ServerApp] Saving file at /code/Fulvestrant_response.ipynb
+[W 2023-11-19 22:38:52.960 ServerApp] Notebook code/Fulvestrant_response.ipynb is not trusted
+[I 2023-11-19 22:40:53.131 ServerApp] Saving file at /code/Fulvestrant_response.ipynb
+[W 2023-11-19 22:40:53.131 ServerApp] Notebook code/Fulvestrant_response.ipynb is not trusted
+[I 2023-11-19 22:42:53.237 ServerApp] Saving file at /code/Fulvestrant_response.ipynb
+[W 2023-11-19 22:42:53.238 ServerApp] Notebook code/Fulvestrant_response.ipynb is not trusted
+[W 2023-11-19 22:43:29.719 ServerApp] delete /results/submission_table.csv
+[W 2023-11-19 22:43:29.719 ServerApp] Skipping trash for /root/capsule/results/submission_table.csv, on different device to home directory
+[I 2023-11-19 22:44:53.391 ServerApp] Saving file at /code/Fulvestrant_response.ipynb
+[W 2023-11-19 22:44:53.391 ServerApp] Notebook code/Fulvestrant_response.ipynb is not trusted
+[W 2023-11-19 23:00:36.477 ServerApp] delete /results/submission_table.csv
+[W 2023-11-19 23:00:36.478 ServerApp] Skipping trash for /root/capsule/results/submission_table.csv, on different device to home directory
+[I 2023-11-19 23:02:54.328 ServerApp] Saving file at /code/Fulvestrant_response.ipynb
+[W 2023-11-19 23:02:54.328 ServerApp] Notebook code/Fulvestrant_response.ipynb is not trusted
+[W 2023-11-19 23:03:23.573 ServerApp] delete /results/submission_table.csv
+[W 2023-11-19 23:03:23.574 ServerApp] Skipping trash for /root/capsule/results/submission_table.csv, on different device to home directory
+[I 2023-11-19 23:04:54.509 ServerApp] Saving file at /code/Fulvestrant_response.ipynb
+[W 2023-11-19 23:04:54.509 ServerApp] Notebook code/Fulvestrant_response.ipynb is not trusted
+[I 2023-11-19 23:06:54.644 ServerApp] Saving file at /code/Fulvestrant_response.ipynb
+[W 2023-11-19 23:06:54.644 ServerApp] Notebook code/Fulvestrant_response.ipynb is not trusted
+[I 2023-11-19 23:10:54.851 ServerApp] Saving file at /code/Fulvestrant_response.ipynb
+[W 2023-11-19 23:10:54.852 ServerApp] Notebook code/Fulvestrant_response.ipynb is not trusted
+[I 2023-11-19 23:12:55.067 ServerApp] Saving file at /code/Fulvestrant_response.ipynb
+[W 2023-11-19 23:12:55.067 ServerApp] Notebook code/Fulvestrant_response.ipynb is not trusted
+[I 2023-11-19 23:14:55.289 ServerApp] Saving file at /code/Fulvestrant_response.ipynb
+[W 2023-11-19 23:14:55.289 ServerApp] Notebook code/Fulvestrant_response.ipynb is not trusted
+[I 2023-11-19 23:16:55.423 ServerApp] Saving file at /code/Fulvestrant_response.ipynb
+[W 2023-11-19 23:16:55.423 ServerApp] Notebook code/Fulvestrant_response.ipynb is not trusted
+[I 2023-11-19 23:18:55.537 ServerApp] Saving file at /code/Fulvestrant_response.ipynb
+[W 2023-11-19 23:18:55.537 ServerApp] Notebook code/Fulvestrant_response.ipynb is not trusted
+[I 2023-11-19 23:20:55.648 ServerApp] Saving file at /code/Fulvestrant_response.ipynb
+[W 2023-11-19 23:20:55.648 ServerApp] Notebook code/Fulvestrant_response.ipynb is not trusted
+[I 2023-11-19 23:22:55.754 ServerApp] Saving file at /code/Fulvestrant_response.ipynb
+[W 2023-11-19 23:22:55.754 ServerApp] Notebook code/Fulvestrant_response.ipynb is not trusted
+[W 2023-11-19 23:24:45.000 ServerApp] delete /results/submission_table.csv
+[W 2023-11-19 23:24:45.001 ServerApp] Skipping trash for /root/capsule/results/submission_table.csv, on different device to home directory
+[I 2023-11-19 23:24:55.865 ServerApp] Saving file at /code/Fulvestrant_response.ipynb
+[W 2023-11-19 23:24:55.865 ServerApp] Notebook code/Fulvestrant_response.ipynb is not trusted
+[I 2023-11-19 23:26:55.974 ServerApp] Saving file at /code/Fulvestrant_response.ipynb
+[W 2023-11-19 23:26:55.975 ServerApp] Notebook code/Fulvestrant_response.ipynb is not trusted
+[W 2023-11-19 23:28:52.351 ServerApp] delete /results/submission_table.csv
+[W 2023-11-19 23:28:52.352 ServerApp] Skipping trash for /root/capsule/results/submission_table.csv, on different device to home directory
+[I 2023-11-19 23:28:56.087 ServerApp] Saving file at /code/Fulvestrant_response.ipynb
+[W 2023-11-19 23:28:56.087 ServerApp] Notebook code/Fulvestrant_response.ipynb is not trusted
+[I 2023-11-19 23:30:56.403 ServerApp] Saving file at /code/Fulvestrant_response.ipynb
+[W 2023-11-19 23:30:56.403 ServerApp] Notebook code/Fulvestrant_response.ipynb is not trusted
+[I 2023-11-19 23:34:56.686 ServerApp] Saving file at /code/Fulvestrant_response.ipynb
+[W 2023-11-19 23:34:56.686 ServerApp] Notebook code/Fulvestrant_response.ipynb is not trusted
+[I 2023-11-19 23:36:56.821 ServerApp] Saving file at /code/Fulvestrant_response.ipynb
+[W 2023-11-19 23:36:56.821 ServerApp] Notebook code/Fulvestrant_response.ipynb is not trusted
+[I 2023-11-19 23:38:14.666 ServerApp] Saving file at /code/Fulvestrant_response.ipynb
+[W 2023-11-19 23:38:14.667 ServerApp] Notebook code/Fulvestrant_response.ipynb is not trusted
+[W 2023-11-19 23:38:31.975 ServerApp] Notebook code/Gefitinib_response.ipynb is not trusted
+[I 2023-11-19 23:38:32.531 ServerApp] Kernel started: 43b344af-e948-4d0f-a432-11b272babbf3
+[I 2023-11-19 23:38:33.005 ServerApp] Connecting to kernel 43b344af-e948-4d0f-a432-11b272babbf3.
+[W 2023-11-19 23:39:34.381 ServerApp] Notebook code/Fulvestrant_response.ipynb is not trusted
+[I 2023-11-19 23:39:34.850 ServerApp] Connecting to kernel 1f192e6b-6c57-4c7f-b027-3a78be70eba0.
+[I 2023-11-19 23:44:32.394 ServerApp] Saving file at /code/Gefitinib_response.ipynb
+[W 2023-11-19 23:44:32.395 ServerApp] Notebook code/Gefitinib_response.ipynb is not trusted
+[I 2023-11-19 23:48:32.499 ServerApp] Saving file at /code/Gefitinib_response.ipynb
+[I 2023-11-19 23:50:32.709 ServerApp] Saving file at /code/Gefitinib_response.ipynb
+[I 2023-11-19 23:57:34.775 ServerApp] Saving file at /code/Fulvestrant_response.ipynb
+[W 2023-11-19 23:57:34.775 ServerApp] Notebook code/Fulvestrant_response.ipynb is not trusted
+[W 2023-11-19 23:58:03.691 ServerApp] delete /results/submission_table.csv
+[W 2023-11-19 23:58:03.692 ServerApp] Skipping trash for /root/capsule/results/submission_table.csv, on different device to home directory
+[W 2023-11-19 23:58:08.488 ServerApp] delete /results/submission_table_custom.csv
+[W 2023-11-19 23:58:08.489 ServerApp] Skipping trash for /root/capsule/results/submission_table_custom.csv, on different device to home directory
+[W 2023-11-19 23:58:50.180 ServerApp] delete /results/submission_table_custom.csv
+[W 2023-11-19 23:58:50.181 ServerApp] Skipping trash for /root/capsule/results/submission_table_custom.csv, on different device to home directory
+[W 2023-11-19 23:59:25.651 ServerApp] delete /results/submission_table_custom.csv
+[W 2023-11-19 23:59:25.652 ServerApp] Skipping trash for /root/capsule/results/submission_table_custom.csv, on different device to home directory
+[I 2023-11-19 23:59:34.979 ServerApp] Saving file at /code/Fulvestrant_response.ipynb
+[W 2023-11-19 23:59:34.979 ServerApp] Notebook code/Fulvestrant_response.ipynb is not trusted
+[I 2023-11-20 00:01:35.296 ServerApp] Saving file at /code/Fulvestrant_response.ipynb
+[W 2023-11-20 00:01:35.297 ServerApp] Notebook code/Fulvestrant_response.ipynb is not trusted
+[I 2023-11-20 00:02:32.996 ServerApp] Saving file at /code/Gefitinib_response.ipynb
+[I 2023-11-20 00:04:33.129 ServerApp] Saving file at /code/Gefitinib_response.ipynb
+[I 2023-11-20 00:06:04.165 ServerApp] Kernel interrupted: 43b344af-e948-4d0f-a432-11b272babbf3
+[I 2023-11-20 00:06:33.266 ServerApp] Saving file at /code/Gefitinib_response.ipynb
+[W 2023-11-20 00:06:48.173 ServerApp] delete /results/submission_table_custom.csv
+[W 2023-11-20 00:06:48.174 ServerApp] Skipping trash for /root/capsule/results/submission_table_custom.csv, on different device to home directory
+[I 2023-11-20 00:07:35.503 ServerApp] Saving file at /code/Fulvestrant_response.ipynb
+[W 2023-11-20 00:07:35.503 ServerApp] Notebook code/Fulvestrant_response.ipynb is not trusted
+[W 2023-11-20 00:08:15.664 ServerApp] delete /results/submission_table_custom.csv
+[W 2023-11-20 00:08:15.665 ServerApp] Skipping trash for /root/capsule/results/submission_table_custom.csv, on different device to home directory
+[I 2023-11-20 00:08:33.374 ServerApp] Saving file at /code/Gefitinib_response.ipynb
+[I 2023-11-20 00:09:35.641 ServerApp] Saving file at /code/Fulvestrant_response.ipynb
+[W 2023-11-20 00:09:35.641 ServerApp] Notebook code/Fulvestrant_response.ipynb is not trusted
+[I 2023-11-20 00:10:33.493 ServerApp] Saving file at /code/Gefitinib_response.ipynb
+[I 2023-11-20 00:11:04.854 ServerApp] Saving file at /code/Gefitinib_response.ipynb
+[I 2023-11-20 00:11:06.678 ServerApp] Starting buffering for 43b344af-e948-4d0f-a432-11b272babbf3:73c5f074-83d8-40bd-9a88-489841394511
+[I 2023-11-20 00:11:10.843 ServerApp] Saving file at /code/Fulvestrant_response.ipynb
+[W 2023-11-20 00:11:10.843 ServerApp] Notebook code/Fulvestrant_response.ipynb is not trusted
+[W 2023-11-20 00:11:19.489 ServerApp] Notebook code/Mitomycin_response.ipynb is not trusted
+[I 2023-11-20 00:11:19.882 ServerApp] Kernel started: ab898c74-1d72-4b29-8751-adf1e7025b0e
+[I 2023-11-20 00:11:20.362 ServerApp] Connecting to kernel ab898c74-1d72-4b29-8751-adf1e7025b0e.
+[I 2023-11-20 00:13:19.668 ServerApp] Saving file at /code/Mitomycin_response.ipynb
+[I 2023-11-20 00:15:19.793 ServerApp] Saving file at /code/Mitomycin_response.ipynb
+[I 2023-11-20 00:17:19.904 ServerApp] Saving file at /code/Mitomycin_response.ipynb
+[I 2023-11-20 00:17:23.593 ServerApp] Saving file at /code/Mitomycin_response.ipynb
+[I 2023-11-20 00:17:34.171 ServerApp] Starting buffering for ab898c74-1d72-4b29-8751-adf1e7025b0e:ace025bd-1c64-4fa4-933c-f9c62446ce6b
+[W 2023-11-20 00:17:38.350 ServerApp] Notebook code/Mitomycin-Fulvestrant_response.ipynb is not trusted
+[I 2023-11-20 00:17:38.697 ServerApp] Kernel started: 0161d96f-5579-4d44-a6a3-fe51d31d4bd9
+[I 2023-11-20 00:17:39.236 ServerApp] Connecting to kernel 0161d96f-5579-4d44-a6a3-fe51d31d4bd9.
+[I 2023-11-20 00:17:44.030 ServerApp] Connecting to kernel ab898c74-1d72-4b29-8751-adf1e7025b0e.
+[I 2023-11-20 00:17:54.994 ServerApp] Starting buffering for ab898c74-1d72-4b29-8751-adf1e7025b0e:a0c164c9-22e3-40c1-a218-b89be87f088b
+[I 2023-11-20 00:19:38.504 ServerApp] Saving file at /code/Mitomycin-Fulvestrant_response.ipynb
+[W 2023-11-20 00:19:38.504 ServerApp] Notebook code/Mitomycin-Fulvestrant_response.ipynb is not trusted
+[I 2023-11-20 00:21:38.616 ServerApp] Saving file at /code/Mitomycin-Fulvestrant_response.ipynb
+[W 2023-11-20 00:21:38.616 ServerApp] Notebook code/Mitomycin-Fulvestrant_response.ipynb is not trusted
+[I 2023-11-20 00:23:38.717 ServerApp] Saving file at /code/Mitomycin-Fulvestrant_response.ipynb
+[W 2023-11-20 00:23:38.717 ServerApp] Notebook code/Mitomycin-Fulvestrant_response.ipynb is not trusted
+[I 2023-11-20 00:25:38.848 ServerApp] Saving file at /code/Mitomycin-Fulvestrant_response.ipynb
+[W 2023-11-20 00:25:38.849 ServerApp] Notebook code/Mitomycin-Fulvestrant_response.ipynb is not trusted
+[I 2023-11-20 00:25:40.212 ServerApp] Saving file at /code/Mitomycin-Fulvestrant_response.ipynb
+[W 2023-11-20 00:25:40.213 ServerApp] Notebook code/Mitomycin-Fulvestrant_response.ipynb is not trusted
+[I 2023-11-20 00:25:46.171 ServerApp] Starting buffering for 0161d96f-5579-4d44-a6a3-fe51d31d4bd9:f465010b-0f47-4899-9b82-2d7ad7c44bf9
+[W 2023-11-20 00:25:53.430 ServerApp] Notebook code/Rapamycin_response.ipynb is not trusted
+[I 2023-11-20 00:25:53.848 ServerApp] Kernel started: 6a2dfafc-a762-402f-a68e-00e881b9cc41
+[I 2023-11-20 00:25:54.378 ServerApp] Connecting to kernel 6a2dfafc-a762-402f-a68e-00e881b9cc41.
+[I 2023-11-20 00:27:53.660 ServerApp] Saving file at /code/Rapamycin_response.ipynb
+[W 2023-11-20 00:27:53.661 ServerApp] Notebook code/Rapamycin_response.ipynb is not trusted
+[I 2023-11-20 00:29:53.785 ServerApp] Saving file at /code/Rapamycin_response.ipynb
+[W 2023-11-20 00:29:53.785 ServerApp] Notebook code/Rapamycin_response.ipynb is not trusted
+[I 2023-11-20 00:31:53.939 ServerApp] Saving file at /code/Rapamycin_response.ipynb
+[W 2023-11-20 00:31:53.940 ServerApp] Notebook code/Rapamycin_response.ipynb is not trusted
+[I 2023-11-20 00:33:54.154 ServerApp] Saving file at /code/Rapamycin_response.ipynb
+[W 2023-11-20 00:33:54.154 ServerApp] Notebook code/Rapamycin_response.ipynb is not trusted
+[W 2023-11-20 00:34:57.995 ServerApp] Notebook code/Rapamycin-Gefitinib_response.ipynb is not trusted
+[I 2023-11-20 00:34:58.387 ServerApp] Kernel started: 1e7dff7f-a0b1-491d-be48-05e996bdd6c4
+[I 2023-11-20 00:34:58.823 ServerApp] Connecting to kernel 1e7dff7f-a0b1-491d-be48-05e996bdd6c4.
+[I 2023-11-20 00:35:54.273 ServerApp] Saving file at /code/Rapamycin_response.ipynb
+[W 2023-11-20 00:35:54.273 ServerApp] Notebook code/Rapamycin_response.ipynb is not trusted
+[I 2023-11-20 00:36:58.199 ServerApp] Saving file at /code/Rapamycin-Gefitinib_response.ipynb
+[W 2023-11-20 00:36:58.199 ServerApp] Notebook code/Rapamycin-Gefitinib_response.ipynb is not trusted
+[I 2023-11-20 00:38:58.301 ServerApp] Saving file at /code/Rapamycin-Gefitinib_response.ipynb
+[W 2023-11-20 00:38:58.302 ServerApp] Notebook code/Rapamycin-Gefitinib_response.ipynb is not trusted
+[I 2023-11-20 00:40:47.725 ServerApp] Saving file at /code/Rapamycin-Gefitinib_response.ipynb
+[W 2023-11-20 00:40:47.725 ServerApp] Notebook code/Rapamycin-Gefitinib_response.ipynb is not trusted
+[E 2023-11-20 00:41:23.681 ServerApp] Uncaught exception GET /cw/a0986a31-244a-4043-bbac-a8f418aecce8/api/contents/data/challenge2_files/model_output.tsv/checkpoints?1700440883632 (10.0.187.60)
+    HTTPServerRequest(protocol='http', host='hackathon2023.radr-ai.com', method='GET', uri='/cw/a0986a31-244a-4043-bbac-a8f418aecce8/api/contents/data/challenge2_files/model_output.tsv/checkpoints?1700440883632', version='HTTP/1.1', remote_ip='10.0.187.60')
+    Traceback (most recent call last):
+      File "/opt/conda/lib/python3.10/site-packages/tornado/web.py", line 1786, in _execute
+        result = await result
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_server/services/contents/handlers.py", line 295, in get
+        checkpoints = await ensure_async(cm.list_checkpoints(path))
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_core/utils/__init__.py", line 182, in ensure_async
+        result = await obj
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_server/services/contents/manager.py", line 1079, in list_checkpoints
+        return await self.checkpoints.list_checkpoints(path)
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_server/services/contents/filecheckpoints.py", line 195, in list_checkpoints
+        os_path = self.checkpoint_path(checkpoint_id, path)
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_server/services/contents/filecheckpoints.py", line 119, in checkpoint_path
+        ensure_dir_exists(cp_dir)
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_core/utils/__init__.py", line 25, in ensure_dir_exists
+        os.makedirs(path, mode=mode)
+      File "/opt/conda/lib/python3.10/os.py", line 225, in makedirs
+        mkdir(name, mode)
+    OSError: [Errno 30] Read-only file system: '/root/capsule/data/challenge2_files/.ipynb_checkpoints'
+[W 2023-11-20 00:41:23.682 ServerApp] wrote error: 'Unhandled error'
+    Traceback (most recent call last):
+      File "/opt/conda/lib/python3.10/site-packages/tornado/web.py", line 1786, in _execute
+        result = await result
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_server/services/contents/handlers.py", line 295, in get
+        checkpoints = await ensure_async(cm.list_checkpoints(path))
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_core/utils/__init__.py", line 182, in ensure_async
+        result = await obj
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_server/services/contents/manager.py", line 1079, in list_checkpoints
+        return await self.checkpoints.list_checkpoints(path)
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_server/services/contents/filecheckpoints.py", line 195, in list_checkpoints
+        os_path = self.checkpoint_path(checkpoint_id, path)
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_server/services/contents/filecheckpoints.py", line 119, in checkpoint_path
+        ensure_dir_exists(cp_dir)
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_core/utils/__init__.py", line 25, in ensure_dir_exists
+        os.makedirs(path, mode=mode)
+      File "/opt/conda/lib/python3.10/os.py", line 225, in makedirs
+        mkdir(name, mode)
+    OSError: [Errno 30] Read-only file system: '/root/capsule/data/challenge2_files/.ipynb_checkpoints'
+[E 2023-11-20 00:41:23.682 ServerApp] {
+      "Host": "hackathon2023.radr-ai.com",
+      "Accept": "*/*",
+      "Referer": "https://hackathon2023.radr-ai.com/cw/a0986a31-244a-4043-bbac-a8f418aecce8/lab/tree/data/challenge2_files/model_output.tsv",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15"
+    }
+[E 2023-11-20 00:41:23.682 ServerApp] 500 GET /cw/a0986a31-244a-4043-bbac-a8f418aecce8/api/contents/data/challenge2_files/model_output.tsv/checkpoints?1700440883632 (85370400e8f74876ba83384ee30476b3@10.0.187.60) 1.07ms referer=https://hackathon2023.radr-ai.com/cw/a0986a31-244a-4043-bbac-a8f418aecce8/lab/tree/data/challenge2_files/model_output.tsv
+[E 2023-11-20 00:41:23.684 ServerApp] Uncaught exception GET /cw/a0986a31-244a-4043-bbac-a8f418aecce8/api/contents/data/challenge2_files/model_output.tsv/checkpoints?1700440883635 (10.0.187.60)
+    HTTPServerRequest(protocol='http', host='hackathon2023.radr-ai.com', method='GET', uri='/cw/a0986a31-244a-4043-bbac-a8f418aecce8/api/contents/data/challenge2_files/model_output.tsv/checkpoints?1700440883635', version='HTTP/1.1', remote_ip='10.0.187.60')
+    Traceback (most recent call last):
+      File "/opt/conda/lib/python3.10/site-packages/tornado/web.py", line 1786, in _execute
+        result = await result
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_server/services/contents/handlers.py", line 295, in get
+        checkpoints = await ensure_async(cm.list_checkpoints(path))
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_core/utils/__init__.py", line 182, in ensure_async
+        result = await obj
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_server/services/contents/manager.py", line 1079, in list_checkpoints
+        return await self.checkpoints.list_checkpoints(path)
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_server/services/contents/filecheckpoints.py", line 195, in list_checkpoints
+        os_path = self.checkpoint_path(checkpoint_id, path)
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_server/services/contents/filecheckpoints.py", line 119, in checkpoint_path
+        ensure_dir_exists(cp_dir)
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_core/utils/__init__.py", line 25, in ensure_dir_exists
+        os.makedirs(path, mode=mode)
+      File "/opt/conda/lib/python3.10/os.py", line 225, in makedirs
+        mkdir(name, mode)
+    OSError: [Errno 30] Read-only file system: '/root/capsule/data/challenge2_files/.ipynb_checkpoints'
+[W 2023-11-20 00:41:23.684 ServerApp] wrote error: 'Unhandled error'
+    Traceback (most recent call last):
+      File "/opt/conda/lib/python3.10/site-packages/tornado/web.py", line 1786, in _execute
+        result = await result
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_server/services/contents/handlers.py", line 295, in get
+        checkpoints = await ensure_async(cm.list_checkpoints(path))
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_core/utils/__init__.py", line 182, in ensure_async
+        result = await obj
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_server/services/contents/manager.py", line 1079, in list_checkpoints
+        return await self.checkpoints.list_checkpoints(path)
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_server/services/contents/filecheckpoints.py", line 195, in list_checkpoints
+        os_path = self.checkpoint_path(checkpoint_id, path)
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_server/services/contents/filecheckpoints.py", line 119, in checkpoint_path
+        ensure_dir_exists(cp_dir)
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_core/utils/__init__.py", line 25, in ensure_dir_exists
+        os.makedirs(path, mode=mode)
+      File "/opt/conda/lib/python3.10/os.py", line 225, in makedirs
+        mkdir(name, mode)
+    OSError: [Errno 30] Read-only file system: '/root/capsule/data/challenge2_files/.ipynb_checkpoints'
+[E 2023-11-20 00:41:23.684 ServerApp] {
+      "Host": "hackathon2023.radr-ai.com",
+      "Accept": "*/*",
+      "Referer": "https://hackathon2023.radr-ai.com/cw/a0986a31-244a-4043-bbac-a8f418aecce8/lab/tree/data/challenge2_files/model_output.tsv",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15"
+    }
+[E 2023-11-20 00:41:23.684 ServerApp] 500 GET /cw/a0986a31-244a-4043-bbac-a8f418aecce8/api/contents/data/challenge2_files/model_output.tsv/checkpoints?1700440883635 (85370400e8f74876ba83384ee30476b3@10.0.187.60) 0.99ms referer=https://hackathon2023.radr-ai.com/cw/a0986a31-244a-4043-bbac-a8f418aecce8/lab/tree/data/challenge2_files/model_output.tsv
+[W 2023-11-20 00:51:09.859 ServerApp] Notebook code/Fulvestrant_response.ipynb is not trusted
+[I 2023-11-20 00:51:10.724 ServerApp] Connecting to kernel 1f192e6b-6c57-4c7f-b027-3a78be70eba0.
+[I 2023-11-20 00:51:34.121 ServerApp] Connecting to kernel 43b344af-e948-4d0f-a432-11b272babbf3.
+[I 2023-11-20 00:52:32.746 ServerApp] Saving file at /code/Gefitinib_response.ipynb
+[I 2023-11-20 00:52:34.583 ServerApp] Connecting to kernel ab898c74-1d72-4b29-8751-adf1e7025b0e.
+[I 2023-11-20 00:54:13.846 ServerApp] Saving file at /code/Mitomycin_response.ipynb
+[W 2023-11-20 00:54:30.341 ServerApp] Notebook code/Mitomycin-Fulvestrant_response.ipynb is not trusted
+[I 2023-11-20 00:54:30.928 ServerApp] Connecting to kernel 0161d96f-5579-4d44-a6a3-fe51d31d4bd9.
+[I 2023-11-20 00:54:38.256 ServerApp] Saving file at /code/Mitomycin_response.ipynb
+[I 2023-11-20 00:54:39.517 ServerApp] Starting buffering for ab898c74-1d72-4b29-8751-adf1e7025b0e:87eac1da-fdbf-4582-9255-6f0e37e5760a
+[I 2023-11-20 00:55:34.336 ServerApp] Saving file at /code/Mitomycin-Fulvestrant_response.ipynb
+[W 2023-11-20 00:55:34.337 ServerApp] Notebook code/Mitomycin-Fulvestrant_response.ipynb is not trusted
+[I 2023-11-20 00:55:46.817 ServerApp] Saving file at /code/Mitomycin-Fulvestrant_response.ipynb
+[W 2023-11-20 00:55:46.817 ServerApp] Notebook code/Mitomycin-Fulvestrant_response.ipynb is not trusted
+[I 2023-11-20 00:57:29.935 ServerApp] Connecting to kernel ab898c74-1d72-4b29-8751-adf1e7025b0e.
+[I 2023-11-20 00:57:46.918 ServerApp] Saving file at /code/Mitomycin-Fulvestrant_response.ipynb
+[W 2023-11-20 00:57:46.918 ServerApp] Notebook code/Mitomycin-Fulvestrant_response.ipynb is not trusted
+[I 2023-11-20 00:59:29.624 ServerApp] Saving file at /code/Mitomycin_response.ipynb
+[I 2023-11-20 00:59:54.600 ServerApp] Saving file at /code/Rapamycin_response.ipynb
+[W 2023-11-20 00:59:54.601 ServerApp] Notebook code/Rapamycin_response.ipynb is not trusted
+[I 2023-11-20 01:00:48.036 ServerApp] Saving file at /code/Rapamycin-Gefitinib_response.ipynb
+[W 2023-11-20 01:00:48.036 ServerApp] Notebook code/Rapamycin-Gefitinib_response.ipynb is not trusted
+[W 2023-11-20 01:12:58.824 ServerApp] WebSocket ping timeout after 119962 ms.
+[W 2023-11-20 01:12:59.935 ServerApp] WebSocket ping timeout after 119953 ms.
+[W 2023-11-20 01:13:00.930 ServerApp] WebSocket ping timeout after 119961 ms.
+[I 2023-11-20 01:13:03.827 ServerApp] Starting buffering for 1e7dff7f-a0b1-491d-be48-05e996bdd6c4:f79218e7-17fe-438f-a43a-e874cf50710f
+[W 2023-11-20 01:13:04.122 ServerApp] WebSocket ping timeout after 119961 ms.
+[I 2023-11-20 01:13:04.937 ServerApp] Starting buffering for ab898c74-1d72-4b29-8751-adf1e7025b0e:09cf1ceb-b75b-46a1-a0e6-36bd5cadcb99
+[I 2023-11-20 01:13:05.931 ServerApp] Starting buffering for 0161d96f-5579-4d44-a6a3-fe51d31d4bd9:520605b9-45ba-4f1d-9158-3bc633ad2107
+[I 2023-11-20 01:13:09.125 ServerApp] Starting buffering for 43b344af-e948-4d0f-a432-11b272babbf3:091e4833-8cb7-4a75-a47c-a9bf529d6bd5
+[W 2023-11-20 01:13:10.725 ServerApp] WebSocket ping timeout after 119929 ms.
+[W 2023-11-20 01:13:23.500 ServerApp] WebSocket ping timeout after 119961 ms.
+[W 2023-11-20 01:13:24.379 ServerApp] WebSocket ping timeout after 119862 ms.
+[I 2023-11-20 01:13:28.500 ServerApp] Starting buffering for 1f192e6b-6c57-4c7f-b027-3a78be70eba0:676d956a-32dc-4282-900b-e3d47d76619d
+[I 2023-11-20 01:13:29.380 ServerApp] Starting buffering for 6a2dfafc-a762-402f-a68e-00e881b9cc41:d4bc1ee0-233c-4c87-9ba6-0c8d600b64da
+[I 2023-11-20 01:14:28.700 ServerApp] Connecting to kernel 1f192e6b-6c57-4c7f-b027-3a78be70eba0.
+[I 2023-11-20 01:17:52.125 ServerApp] Saving file at /code/Fulvestrant_response.ipynb
+[W 2023-11-20 01:17:52.125 ServerApp] Notebook code/Fulvestrant_response.ipynb is not trusted
+[I 2023-11-20 01:19:52.401 ServerApp] Saving file at /code/Fulvestrant_response.ipynb
+[W 2023-11-20 01:19:52.402 ServerApp] Notebook code/Fulvestrant_response.ipynb is not trusted
+[I 2023-11-20 01:21:52.644 ServerApp] Saving file at /code/Fulvestrant_response.ipynb
+[W 2023-11-20 01:21:52.644 ServerApp] Notebook code/Fulvestrant_response.ipynb is not trusted
+[I 2023-11-20 01:23:52.767 ServerApp] Saving file at /code/Fulvestrant_response.ipynb
+[W 2023-11-20 01:23:52.767 ServerApp] Notebook code/Fulvestrant_response.ipynb is not trusted
+[I 2023-11-20 01:25:53.163 ServerApp] Saving file at /code/Fulvestrant_response.ipynb
+[W 2023-11-20 01:25:53.163 ServerApp] Notebook code/Fulvestrant_response.ipynb is not trusted
+[I 2023-11-20 01:27:53.422 ServerApp] Saving file at /code/Fulvestrant_response.ipynb
+[W 2023-11-20 01:27:53.422 ServerApp] Notebook code/Fulvestrant_response.ipynb is not trusted
+[I 2023-11-20 01:29:53.613 ServerApp] Saving file at /code/Fulvestrant_response.ipynb
+[W 2023-11-20 01:29:53.613 ServerApp] Notebook code/Fulvestrant_response.ipynb is not trusted
+[I 2023-11-20 01:30:20.282 ServerApp] Connecting to kernel 1e7dff7f-a0b1-491d-be48-05e996bdd6c4.
+[I 2023-11-20 01:30:20.282 ServerApp] Restoring connection for 1e7dff7f-a0b1-491d-be48-05e996bdd6c4:f79218e7-17fe-438f-a43a-e874cf50710f
+[I 2023-11-20 01:30:29.293 ServerApp] Connecting to kernel ab898c74-1d72-4b29-8751-adf1e7025b0e.
+[I 2023-11-20 01:30:29.293 ServerApp] Restoring connection for ab898c74-1d72-4b29-8751-adf1e7025b0e:09cf1ceb-b75b-46a1-a0e6-36bd5cadcb99
+[I 2023-11-20 01:31:53.991 ServerApp] Saving file at /code/Fulvestrant_response.ipynb
+[W 2023-11-20 01:31:53.991 ServerApp] Notebook code/Fulvestrant_response.ipynb is not trusted
+[I 2023-11-20 01:33:54.284 ServerApp] Saving file at /code/Fulvestrant_response.ipynb
+[W 2023-11-20 01:33:54.284 ServerApp] Notebook code/Fulvestrant_response.ipynb is not trusted
+[I 2023-11-20 01:35:54.648 ServerApp] Saving file at /code/Fulvestrant_response.ipynb
+[W 2023-11-20 01:35:54.648 ServerApp] Notebook code/Fulvestrant_response.ipynb is not trusted
+[I 2023-11-20 01:37:54.863 ServerApp] Saving file at /code/Fulvestrant_response.ipynb
+[W 2023-11-20 01:37:54.863 ServerApp] Notebook code/Fulvestrant_response.ipynb is not trusted
+[I 2023-11-20 01:39:55.122 ServerApp] Saving file at /code/Fulvestrant_response.ipynb
+[W 2023-11-20 01:39:55.122 ServerApp] Notebook code/Fulvestrant_response.ipynb is not trusted
+[I 2023-11-20 01:41:55.294 ServerApp] Saving file at /code/Fulvestrant_response.ipynb
+[W 2023-11-20 01:41:55.294 ServerApp] Notebook code/Fulvestrant_response.ipynb is not trusted
+[I 2023-11-20 01:43:55.452 ServerApp] Saving file at /code/Fulvestrant_response.ipynb
+[W 2023-11-20 01:43:55.452 ServerApp] Notebook code/Fulvestrant_response.ipynb is not trusted
+[I 2023-11-20 01:44:22.824 ServerApp] Connecting to kernel 43b344af-e948-4d0f-a432-11b272babbf3.
+[I 2023-11-20 01:44:22.824 ServerApp] Restoring connection for 43b344af-e948-4d0f-a432-11b272babbf3:091e4833-8cb7-4a75-a47c-a9bf529d6bd5
+[I 2023-11-20 01:44:28.768 ServerApp] Connecting to kernel 0161d96f-5579-4d44-a6a3-fe51d31d4bd9.
+[I 2023-11-20 01:44:28.768 ServerApp] Restoring connection for 0161d96f-5579-4d44-a6a3-fe51d31d4bd9:520605b9-45ba-4f1d-9158-3bc633ad2107
+[I 2023-11-20 01:45:55.587 ServerApp] Saving file at /code/Fulvestrant_response.ipynb
+[W 2023-11-20 01:45:55.588 ServerApp] Notebook code/Fulvestrant_response.ipynb is not trusted
+[I 2023-11-20 01:47:55.803 ServerApp] Saving file at /code/Fulvestrant_response.ipynb
+[W 2023-11-20 01:47:55.803 ServerApp] Notebook code/Fulvestrant_response.ipynb is not trusted
+[I 2023-11-20 01:49:20.333 ServerApp] Starting buffering for 1e7dff7f-a0b1-491d-be48-05e996bdd6c4:f79218e7-17fe-438f-a43a-e874cf50710f
+[I 2023-11-20 01:49:22.862 ServerApp] Starting buffering for 43b344af-e948-4d0f-a432-11b272babbf3:091e4833-8cb7-4a75-a47c-a9bf529d6bd5
+[I 2023-11-20 01:49:24.250 ServerApp] Connecting to kernel 6a2dfafc-a762-402f-a68e-00e881b9cc41.
+[I 2023-11-20 01:49:24.251 ServerApp] Restoring connection for 6a2dfafc-a762-402f-a68e-00e881b9cc41:d4bc1ee0-233c-4c87-9ba6-0c8d600b64da
+[I 2023-11-20 01:49:25.421 ServerApp] Connecting to kernel 1f192e6b-6c57-4c7f-b027-3a78be70eba0.
+[I 2023-11-20 01:49:27.373 ServerApp] Connecting to kernel 1e7dff7f-a0b1-491d-be48-05e996bdd6c4.
+[I 2023-11-20 01:49:27.373 ServerApp] Restoring connection for 1e7dff7f-a0b1-491d-be48-05e996bdd6c4:f79218e7-17fe-438f-a43a-e874cf50710f
+[W 2023-11-20 01:49:27.825 ServerApp] Replacing stale connection: ab898c74-1d72-4b29-8751-adf1e7025b0e:09cf1ceb-b75b-46a1-a0e6-36bd5cadcb99
+[I 2023-11-20 01:49:27.825 ServerApp] Connecting to kernel ab898c74-1d72-4b29-8751-adf1e7025b0e.
+[W 2023-11-20 01:49:27.830 ServerApp] 
+[W 2023-11-20 01:49:27.831 ServerApp] 
+[W 2023-11-20 01:49:27.832 ServerApp] 
+[W 2023-11-20 01:49:27.833 ServerApp] 
+[I 2023-11-20 01:49:28.810 ServerApp] Starting buffering for 0161d96f-5579-4d44-a6a3-fe51d31d4bd9:520605b9-45ba-4f1d-9158-3bc633ad2107
+[I 2023-11-20 01:49:32.487 ServerApp] Connecting to kernel 43b344af-e948-4d0f-a432-11b272babbf3.
+[I 2023-11-20 01:49:32.487 ServerApp] Restoring connection for 43b344af-e948-4d0f-a432-11b272babbf3:091e4833-8cb7-4a75-a47c-a9bf529d6bd5
+[I 2023-11-20 01:49:36.079 ServerApp] Connecting to kernel 1f192e6b-6c57-4c7f-b027-3a78be70eba0.
+[I 2023-11-20 01:49:38.692 ServerApp] Connecting to kernel 0161d96f-5579-4d44-a6a3-fe51d31d4bd9.
+[I 2023-11-20 01:49:38.692 ServerApp] Restoring connection for 0161d96f-5579-4d44-a6a3-fe51d31d4bd9:520605b9-45ba-4f1d-9158-3bc633ad2107
+[I 2023-11-20 01:49:58.790 ServerApp] Saving file at /code/Fulvestrant_response.ipynb
+[W 2023-11-20 01:49:58.791 ServerApp] Notebook code/Fulvestrant_response.ipynb is not trusted
+[I 2023-11-20 01:51:59.019 ServerApp] Saving file at /code/Fulvestrant_response.ipynb
+[W 2023-11-20 01:51:59.019 ServerApp] Notebook code/Fulvestrant_response.ipynb is not trusted
+[I 2023-11-20 01:53:59.184 ServerApp] Saving file at /code/Fulvestrant_response.ipynb
+[I 2023-11-20 01:55:59.340 ServerApp] Saving file at /code/Fulvestrant_response.ipynb
+[I 2023-11-20 01:59:59.735 ServerApp] Saving file at /code/Fulvestrant_response.ipynb
+[I 2023-11-20 02:01:59.997 ServerApp] Saving file at /code/Fulvestrant_response.ipynb
+[I 2023-11-20 02:06:00.504 ServerApp] Saving file at /code/Fulvestrant_response.ipynb
+[I 2023-11-20 02:10:00.945 ServerApp] Saving file at /code/Fulvestrant_response.ipynb
+[I 2023-11-20 02:12:01.367 ServerApp] Saving file at /code/Fulvestrant_response.ipynb
+[I 2023-11-20 02:14:01.658 ServerApp] Saving file at /code/Fulvestrant_response.ipynb
+[I 2023-11-20 02:16:01.818 ServerApp] Saving file at /code/Fulvestrant_response.ipynb
+[I 2023-11-20 02:18:01.990 ServerApp] Saving file at /code/Fulvestrant_response.ipynb
+[I 2023-11-20 02:20:02.126 ServerApp] Saving file at /code/Fulvestrant_response.ipynb
+[I 2023-11-20 02:22:02.268 ServerApp] Saving file at /code/Fulvestrant_response.ipynb
+[W 2023-11-20 02:23:18.515 ServerApp] delete /results/submission_table_custom.csv
+[W 2023-11-20 02:23:18.515 ServerApp] Skipping trash for /root/capsule/results/submission_table_custom.csv, on different device to home directory
+[I 2023-11-20 02:24:02.464 ServerApp] Saving file at /code/Fulvestrant_response.ipynb
+[W 2023-11-20 02:24:53.565 ServerApp] delete /results/submission_table_custom.csv
+[W 2023-11-20 02:24:53.566 ServerApp] Skipping trash for /root/capsule/results/submission_table_custom.csv, on different device to home directory
+[I 2023-11-20 02:26:02.779 ServerApp] Saving file at /code/Fulvestrant_response.ipynb
+[I 2023-11-20 02:27:19.566 ServerApp] Saving file at /code/Gefitinib_response.ipynb
+[I 2023-11-20 02:29:19.988 ServerApp] Saving file at /code/Gefitinib_response.ipynb
+[I 2023-11-20 02:31:20.136 ServerApp] Saving file at /code/Gefitinib_response.ipynb
+[I 2023-11-20 02:33:20.314 ServerApp] Saving file at /code/Gefitinib_response.ipynb
+[I 2023-11-20 02:35:20.459 ServerApp] Saving file at /code/Gefitinib_response.ipynb
+[I 2023-11-20 02:37:20.672 ServerApp] Saving file at /code/Gefitinib_response.ipynb
+[I 2023-11-20 02:39:20.815 ServerApp] Saving file at /code/Gefitinib_response.ipynb
+[I 2023-11-20 02:41:21.130 ServerApp] Saving file at /code/Gefitinib_response.ipynb
+[I 2023-11-20 02:42:50.724 ServerApp] Saving file at /code/Mitomycin-Fulvestrant_response.ipynb
+[W 2023-11-20 02:42:50.725 ServerApp] Notebook code/Mitomycin-Fulvestrant_response.ipynb is not trusted
+[I 2023-11-20 02:43:21.429 ServerApp] Saving file at /code/Gefitinib_response.ipynb
+[I 2023-11-20 02:44:50.936 ServerApp] Saving file at /code/Mitomycin-Fulvestrant_response.ipynb
+[W 2023-11-20 02:44:50.936 ServerApp] Notebook code/Mitomycin-Fulvestrant_response.ipynb is not trusted
+[I 2023-11-20 02:48:51.193 ServerApp] Saving file at /code/Mitomycin-Fulvestrant_response.ipynb
+[W 2023-11-20 02:48:51.194 ServerApp] Notebook code/Mitomycin-Fulvestrant_response.ipynb is not trusted
+[I 2023-11-20 02:50:51.353 ServerApp] Saving file at /code/Mitomycin-Fulvestrant_response.ipynb
+[W 2023-11-20 02:50:51.353 ServerApp] Notebook code/Mitomycin-Fulvestrant_response.ipynb is not trusted
+[I 2023-11-20 02:52:51.578 ServerApp] Saving file at /code/Mitomycin-Fulvestrant_response.ipynb
+[W 2023-11-20 02:52:51.578 ServerApp] Notebook code/Mitomycin-Fulvestrant_response.ipynb is not trusted
+[I 2023-11-20 02:54:25.919 ServerApp] Saving file at /code/Mitomycin_response.ipynb
+[I 2023-11-20 02:56:26.098 ServerApp] Saving file at /code/Mitomycin_response.ipynb
+[I 2023-11-20 02:58:03.108 ServerApp] Saving file at /code/Mitomycin_response.ipynb
+[I 2023-11-20 02:59:03.302 ServerApp] Saving file at /code/Rapamycin_response.ipynb
+[W 2023-11-20 02:59:03.302 ServerApp] Notebook code/Rapamycin_response.ipynb is not trusted
+[I 2023-11-20 03:01:03.454 ServerApp] Saving file at /code/Rapamycin_response.ipynb
+[I 2023-11-20 03:03:03.636 ServerApp] Saving file at /code/Rapamycin_response.ipynb
+[I 2023-11-20 03:05:03.845 ServerApp] Saving file at /code/Rapamycin_response.ipynb
+[I 2023-11-20 03:05:36.758 ServerApp] Saving file at /code/Rapamycin-Gefitinib_response.ipynb
+[I 2023-11-20 03:07:36.886 ServerApp] Saving file at /code/Rapamycin-Gefitinib_response.ipynb
+[I 2023-11-20 03:09:37.026 ServerApp] Saving file at /code/Rapamycin-Gefitinib_response.ipynb
+[E 2023-11-20 03:11:59.688 ServerApp] Uncaught exception GET /cw/a0986a31-244a-4043-bbac-a8f418aecce8/api/contents/data/challenge2_files/fulvestrantTrain.tsv/checkpoints?1700449919641 (10.0.187.60)
+    HTTPServerRequest(protocol='http', host='hackathon2023.radr-ai.com', method='GET', uri='/cw/a0986a31-244a-4043-bbac-a8f418aecce8/api/contents/data/challenge2_files/fulvestrantTrain.tsv/checkpoints?1700449919641', version='HTTP/1.1', remote_ip='10.0.187.60')
+    Traceback (most recent call last):
+      File "/opt/conda/lib/python3.10/site-packages/tornado/web.py", line 1786, in _execute
+        result = await result
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_server/services/contents/handlers.py", line 295, in get
+        checkpoints = await ensure_async(cm.list_checkpoints(path))
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_core/utils/__init__.py", line 182, in ensure_async
+        result = await obj
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_server/services/contents/manager.py", line 1079, in list_checkpoints
+        return await self.checkpoints.list_checkpoints(path)
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_server/services/contents/filecheckpoints.py", line 195, in list_checkpoints
+        os_path = self.checkpoint_path(checkpoint_id, path)
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_server/services/contents/filecheckpoints.py", line 119, in checkpoint_path
+        ensure_dir_exists(cp_dir)
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_core/utils/__init__.py", line 25, in ensure_dir_exists
+        os.makedirs(path, mode=mode)
+      File "/opt/conda/lib/python3.10/os.py", line 225, in makedirs
+        mkdir(name, mode)
+    OSError: [Errno 30] Read-only file system: '/root/capsule/data/challenge2_files/.ipynb_checkpoints'
+[W 2023-11-20 03:11:59.689 ServerApp] wrote error: 'Unhandled error'
+    Traceback (most recent call last):
+      File "/opt/conda/lib/python3.10/site-packages/tornado/web.py", line 1786, in _execute
+        result = await result
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_server/services/contents/handlers.py", line 295, in get
+        checkpoints = await ensure_async(cm.list_checkpoints(path))
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_core/utils/__init__.py", line 182, in ensure_async
+        result = await obj
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_server/services/contents/manager.py", line 1079, in list_checkpoints
+        return await self.checkpoints.list_checkpoints(path)
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_server/services/contents/filecheckpoints.py", line 195, in list_checkpoints
+        os_path = self.checkpoint_path(checkpoint_id, path)
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_server/services/contents/filecheckpoints.py", line 119, in checkpoint_path
+        ensure_dir_exists(cp_dir)
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_core/utils/__init__.py", line 25, in ensure_dir_exists
+        os.makedirs(path, mode=mode)
+      File "/opt/conda/lib/python3.10/os.py", line 225, in makedirs
+        mkdir(name, mode)
+    OSError: [Errno 30] Read-only file system: '/root/capsule/data/challenge2_files/.ipynb_checkpoints'
+[E 2023-11-20 03:11:59.689 ServerApp] {
+      "Host": "hackathon2023.radr-ai.com",
+      "Accept": "*/*",
+      "Referer": "https://hackathon2023.radr-ai.com/cw/a0986a31-244a-4043-bbac-a8f418aecce8/lab/tree/data/challenge2_files/model_output.tsv",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15"
+    }
+[E 2023-11-20 03:11:59.689 ServerApp] 500 GET /cw/a0986a31-244a-4043-bbac-a8f418aecce8/api/contents/data/challenge2_files/fulvestrantTrain.tsv/checkpoints?1700449919641 (85370400e8f74876ba83384ee30476b3@10.0.187.60) 1.15ms referer=https://hackathon2023.radr-ai.com/cw/a0986a31-244a-4043-bbac-a8f418aecce8/lab/tree/data/challenge2_files/model_output.tsv
+[E 2023-11-20 03:11:59.693 ServerApp] Uncaught exception GET /cw/a0986a31-244a-4043-bbac-a8f418aecce8/api/contents/data/challenge2_files/fulvestrantTrain.tsv/checkpoints?1700449919651 (10.0.187.60)
+    HTTPServerRequest(protocol='http', host='hackathon2023.radr-ai.com', method='GET', uri='/cw/a0986a31-244a-4043-bbac-a8f418aecce8/api/contents/data/challenge2_files/fulvestrantTrain.tsv/checkpoints?1700449919651', version='HTTP/1.1', remote_ip='10.0.187.60')
+    Traceback (most recent call last):
+      File "/opt/conda/lib/python3.10/site-packages/tornado/web.py", line 1786, in _execute
+        result = await result
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_server/services/contents/handlers.py", line 295, in get
+        checkpoints = await ensure_async(cm.list_checkpoints(path))
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_core/utils/__init__.py", line 182, in ensure_async
+        result = await obj
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_server/services/contents/manager.py", line 1079, in list_checkpoints
+        return await self.checkpoints.list_checkpoints(path)
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_server/services/contents/filecheckpoints.py", line 195, in list_checkpoints
+        os_path = self.checkpoint_path(checkpoint_id, path)
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_server/services/contents/filecheckpoints.py", line 119, in checkpoint_path
+        ensure_dir_exists(cp_dir)
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_core/utils/__init__.py", line 25, in ensure_dir_exists
+        os.makedirs(path, mode=mode)
+      File "/opt/conda/lib/python3.10/os.py", line 225, in makedirs
+        mkdir(name, mode)
+    OSError: [Errno 30] Read-only file system: '/root/capsule/data/challenge2_files/.ipynb_checkpoints'
+[W 2023-11-20 03:11:59.693 ServerApp] wrote error: 'Unhandled error'
+    Traceback (most recent call last):
+      File "/opt/conda/lib/python3.10/site-packages/tornado/web.py", line 1786, in _execute
+        result = await result
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_server/services/contents/handlers.py", line 295, in get
+        checkpoints = await ensure_async(cm.list_checkpoints(path))
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_core/utils/__init__.py", line 182, in ensure_async
+        result = await obj
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_server/services/contents/manager.py", line 1079, in list_checkpoints
+        return await self.checkpoints.list_checkpoints(path)
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_server/services/contents/filecheckpoints.py", line 195, in list_checkpoints
+        os_path = self.checkpoint_path(checkpoint_id, path)
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_server/services/contents/filecheckpoints.py", line 119, in checkpoint_path
+        ensure_dir_exists(cp_dir)
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_core/utils/__init__.py", line 25, in ensure_dir_exists
+        os.makedirs(path, mode=mode)
+      File "/opt/conda/lib/python3.10/os.py", line 225, in makedirs
+        mkdir(name, mode)
+    OSError: [Errno 30] Read-only file system: '/root/capsule/data/challenge2_files/.ipynb_checkpoints'
+[E 2023-11-20 03:11:59.693 ServerApp] {
+      "Host": "hackathon2023.radr-ai.com",
+      "Accept": "*/*",
+      "Referer": "https://hackathon2023.radr-ai.com/cw/a0986a31-244a-4043-bbac-a8f418aecce8/lab/tree/data/challenge2_files/model_output.tsv",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15"
+    }
+[E 2023-11-20 03:11:59.693 ServerApp] 500 GET /cw/a0986a31-244a-4043-bbac-a8f418aecce8/api/contents/data/challenge2_files/fulvestrantTrain.tsv/checkpoints?1700449919651 (85370400e8f74876ba83384ee30476b3@10.0.187.60) 1.01ms referer=https://hackathon2023.radr-ai.com/cw/a0986a31-244a-4043-bbac-a8f418aecce8/lab/tree/data/challenge2_files/model_output.tsv
+[I 2023-11-20 03:18:04.126 ServerApp] Saving file at /code/Fulvestrant_response.ipynb
+[I 2023-11-20 03:20:04.276 ServerApp] Saving file at /code/Fulvestrant_response.ipynb
+[I 2023-11-20 03:22:04.420 ServerApp] Saving file at /code/Fulvestrant_response.ipynb
+[I 2023-11-20 03:24:04.684 ServerApp] Saving file at /code/Fulvestrant_response.ipynb
+[W 2023-11-20 03:24:18.405 ServerApp] delete /results/table.csv
+[W 2023-11-20 03:24:18.405 ServerApp] Skipping trash for /root/capsule/results/table.csv, on different device to home directory
+[W 2023-11-20 03:25:07.671 ServerApp] delete /results/table.csv
+[W 2023-11-20 03:25:07.672 ServerApp] Skipping trash for /root/capsule/results/table.csv, on different device to home directory
+[I 2023-11-20 03:26:05.367 ServerApp] Saving file at /code/Fulvestrant_response.ipynb
+[W 2023-11-20 03:30:02.629 ServerApp] delete /results/CodeSharks_model.output.csv
+[W 2023-11-20 03:30:02.630 ServerApp] Skipping trash for /root/capsule/results/CodeSharks_model.output.csv, on different device to home directory
+[I 2023-11-20 03:30:05.585 ServerApp] Saving file at /code/Fulvestrant_response.ipynb
+[W 2023-11-20 03:30:08.662 ServerApp] delete /results/CodeSharks_output.csv
+[W 2023-11-20 03:30:08.663 ServerApp] Skipping trash for /root/capsule/results/CodeSharks_output.csv, on different device to home directory
+[I 2023-11-20 03:32:05.904 ServerApp] Saving file at /code/Fulvestrant_response.ipynb
+[I 2023-11-20 03:37:27.474 ServerApp] Saving file at /code/Gefitinib_response.ipynb
+[I 2023-11-20 03:39:27.617 ServerApp] Saving file at /code/Gefitinib_response.ipynb
+[I 2023-11-20 03:41:27.812 ServerApp] Saving file at /code/Gefitinib_response.ipynb
+[I 2023-11-20 03:43:27.967 ServerApp] Saving file at /code/Gefitinib_response.ipynb
+[W 2023-11-20 03:45:05.351 ServerApp] delete /results/CodeSharks_model.output.csv
+[W 2023-11-20 03:45:05.352 ServerApp] Skipping trash for /root/capsule/results/CodeSharks_model.output.csv, on different device to home directory
+[I 2023-11-20 03:45:28.169 ServerApp] Saving file at /code/Gefitinib_response.ipynb
+[W 2023-11-20 03:45:36.788 ServerApp] delete /results/CodeSharks_model.output_updated.csv
+[W 2023-11-20 03:45:36.788 ServerApp] Skipping trash for /root/capsule/results/CodeSharks_model.output_updated.csv, on different device to home directory
+[W 2023-11-20 03:45:43.508 ServerApp] delete /results/CodeSharks_model_output.csv
+[W 2023-11-20 03:45:43.508 ServerApp] Skipping trash for /root/capsule/results/CodeSharks_model_output.csv, on different device to home directory
+[I 2023-11-20 03:46:06.235 ServerApp] Saving file at /code/Fulvestrant_response.ipynb
+[I 2023-11-20 03:47:28.348 ServerApp] Saving file at /code/Gefitinib_response.ipynb
+[I 2023-11-20 03:48:06.437 ServerApp] Saving file at /code/Fulvestrant_response.ipynb
+[I 2023-11-20 03:49:28.462 ServerApp] Saving file at /code/Gefitinib_response.ipynb
+[I 2023-11-20 03:51:28.608 ServerApp] Saving file at /code/Gefitinib_response.ipynb
+[I 2023-11-20 03:53:28.753 ServerApp] Saving file at /code/Gefitinib_response.ipynb
+[I 2023-11-20 03:55:29.169 ServerApp] Saving file at /code/Gefitinib_response.ipynb
+[I 2023-11-20 03:57:29.536 ServerApp] Saving file at /code/Gefitinib_response.ipynb
+[I 2023-11-20 03:58:41.342 ServerApp] Copying results/CodeSharks_model_output.csv to 
+[I 2023-11-20 03:58:57.141 ServerApp] Copying CodeSharks_model_output.csv to /results
+[I 2023-11-20 04:00:04.568 ServerApp] Saving file at /code/Mitomycin_response.ipynb
+[I 2023-11-20 04:02:04.886 ServerApp] Saving file at /code/Mitomycin_response.ipynb
+[I 2023-11-20 04:04:05.061 ServerApp] Saving file at /code/Mitomycin_response.ipynb
+[I 2023-11-20 04:06:05.189 ServerApp] Saving file at /code/Mitomycin_response.ipynb
+[I 2023-11-20 04:07:11.743 ServerApp] Saving file at /code/Mitomycin-Fulvestrant_response.ipynb
+[W 2023-11-20 04:07:11.743 ServerApp] Notebook code/Mitomycin-Fulvestrant_response.ipynb is not trusted
+[I 2023-11-20 04:09:11.756 ServerApp] Saving file at /code/Rapamycin_response.ipynb
+[I 2023-11-20 04:09:38.419 ServerApp] Saving file at /code/Rapamycin-Gefitinib_response.ipynb
+[I 2023-11-20 04:11:38.592 ServerApp] Saving file at /code/Rapamycin-Gefitinib_response.ipynb
+[I 2023-11-20 04:13:38.737 ServerApp] Saving file at /code/Rapamycin-Gefitinib_response.ipynb
+[I 2023-11-20 04:15:11.917 ServerApp] Saving file at /code/Rapamycin_response.ipynb
+[W 2023-11-20 04:15:25.410 ServerApp] delete /results/CodeSharks_model_output-Copy1.csv
+[W 2023-11-20 04:15:25.411 ServerApp] Skipping trash for /root/capsule/results/CodeSharks_model_output-Copy1.csv, on different device to home directory
+[I 2023-11-20 04:15:38.885 ServerApp] Saving file at /code/Rapamycin-Gefitinib_response.ipynb
+[W 2023-11-20 04:15:42.658 ServerApp] delete /CodeSharks_model_output.csv
+[W 2023-11-20 04:15:42.659 ServerApp] Skipping trash for /root/capsule/CodeSharks_model_output.csv, on different device to home directory
+[I 2023-11-20 04:15:44.896 ServerApp] Copying results/CodeSharks_model_output.csv to 
+[E 2023-11-20 04:15:44.899 ServerApp] UNIQUE constraint failed: Files.path
+[W 2023-11-20 04:15:49.783 ServerApp] 409 PATCH /cw/a0986a31-244a-4043-bbac-a8f418aecce8/api/contents/CodeSharks_model_output.csv?1700453749753 (10.0.187.60): File already exists: results/CodeSharks_model_output.csv
+[W 2023-11-20 04:15:49.783 ServerApp] wrote error: 'File already exists: results/CodeSharks_model_output.csv'
+    Traceback (most recent call last):
+      File "/opt/conda/lib/python3.10/site-packages/tornado/web.py", line 1786, in _execute
+        result = await result
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_server/services/contents/handlers.py", line 151, in patch
+        model = await ensure_async(cm.update(model, path))
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_core/utils/__init__.py", line 182, in ensure_async
+        result = await obj
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_server/services/contents/manager.py", line 901, in update
+        await self.rename(path, new_path)
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_server/services/contents/manager.py", line 888, in rename
+        await self.rename_file(old_path, new_path)
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_server/services/contents/filemanager.py", line 1045, in rename_file
+        raise web.HTTPError(409, "File already exists: %s" % new_path)
+    tornado.web.HTTPError: HTTP 409: Conflict (File already exists: results/CodeSharks_model_output.csv)
+[W 2023-11-20 04:15:49.786 ServerApp] 409 PATCH /cw/a0986a31-244a-4043-bbac-a8f418aecce8/api/contents/CodeSharks_model_output.csv?1700453749753 (85370400e8f74876ba83384ee30476b3@10.0.187.60) 3.46ms referer=https://hackathon2023.radr-ai.com/cw/a0986a31-244a-4043-bbac-a8f418aecce8/lab/tree/results/CodeSharks_model_output.csv
+[W 2023-11-20 04:15:52.850 ServerApp] delete /results/CodeSharks_model_output.csv
+[W 2023-11-20 04:15:52.851 ServerApp] Skipping trash for /root/capsule/results/CodeSharks_model_output.csv, on different device to home directory
+[I 2023-11-20 04:17:12.091 ServerApp] Saving file at /code/Rapamycin_response.ipynb
+[I 2023-11-20 04:19:11.924 ServerApp] Saving file at /code/Mitomycin-Fulvestrant_response.ipynb
+[W 2023-11-20 04:19:11.925 ServerApp] Notebook code/Mitomycin-Fulvestrant_response.ipynb is not trusted
+[I 2023-11-20 04:19:12.247 ServerApp] Saving file at /code/Rapamycin_response.ipynb
+[I 2023-11-20 04:21:12.294 ServerApp] Saving file at /code/Mitomycin-Fulvestrant_response.ipynb
+[W 2023-11-20 04:21:12.295 ServerApp] Notebook code/Mitomycin-Fulvestrant_response.ipynb is not trusted
+[I 2023-11-20 04:23:12.589 ServerApp] Saving file at /code/Mitomycin-Fulvestrant_response.ipynb
+[W 2023-11-20 04:23:12.589 ServerApp] Notebook code/Mitomycin-Fulvestrant_response.ipynb is not trusted
+[I 2023-11-20 04:25:12.733 ServerApp] Saving file at /code/Mitomycin-Fulvestrant_response.ipynb
+[I 2023-11-20 04:25:36.071 ServerApp] Copying results/submission_table_custom.csv to /results
+[I 2023-11-20 04:26:17.088 ServerApp] Copying results/submission_table_custom-Copy1.csv to 
+[W 2023-11-20 04:26:32.105 ServerApp] delete /submission_table_custom.csv
+[W 2023-11-20 04:26:32.106 ServerApp] Skipping trash for /root/capsule/submission_table_custom.csv, on different device to home directory
+[W 2023-11-20 04:27:35.906 ServerApp] delete /results/submission_table_custom-Copy1.csv
+[W 2023-11-20 04:27:35.906 ServerApp] Skipping trash for /root/capsule/results/submission_table_custom-Copy1.csv, on different device to home directory
+[W 2023-11-20 04:27:39.572 ServerApp] delete /results/submission_table_custom.csv
+[W 2023-11-20 04:27:39.573 ServerApp] Skipping trash for /root/capsule/results/submission_table_custom.csv, on different device to home directory
+[I 2023-11-20 04:28:07.323 ServerApp] Saving file at /code/Fulvestrant_response.ipynb
+[I 2023-11-20 04:29:12.863 ServerApp] Saving file at /code/Mitomycin-Fulvestrant_response.ipynb
+[I 2023-11-20 04:30:47.069 ServerApp] Copying results/CodeSharks_model_output.csv to 
+[E 2023-11-20 04:30:47.072 ServerApp] UNIQUE constraint failed: Files.path
+[I 2023-11-20 04:31:13.026 ServerApp] Saving file at /code/Mitomycin-Fulvestrant_response.ipynb
+[W 2023-11-20 04:31:29.062 ServerApp] delete /results/CodeSharks_model_output.csv
+[W 2023-11-20 04:31:29.063 ServerApp] Skipping trash for /root/capsule/results/CodeSharks_model_output.csv, on different device to home directory
+[I 2023-11-20 04:31:48.052 ServerApp] Copying results/submission_table_custom.csv to 
+[E 2023-11-20 04:31:48.055 ServerApp] UNIQUE constraint failed: Files.path
+[W 2023-11-20 04:33:27.297 ServerApp] delete /results/submission_table_custom.1csv
+[W 2023-11-20 04:33:27.297 ServerApp] Skipping trash for /root/capsule/results/submission_table_custom.1csv, on different device to home directory
+[I 2023-11-20 04:33:34.868 ServerApp] Copying results/submission_table_custom.csv to 
+[E 2023-11-20 04:33:34.872 ServerApp] UNIQUE constraint failed: Files.path
+[W 2023-11-20 04:35:49.879 ServerApp] delete /results/submission_table_custom.csv
+[W 2023-11-20 04:35:49.880 ServerApp] Skipping trash for /root/capsule/results/submission_table_custom.csv, on different device to home directory
+[W 2023-11-20 04:37:11.651 ServerApp] delete /results/CodeSharks_model_info.csv
+[W 2023-11-20 04:37:11.652 ServerApp] Skipping trash for /root/capsule/results/CodeSharks_model_info.csv, on different device to home directory
+[I 2023-11-20 04:38:07.689 ServerApp] Saving file at /code/Fulvestrant_response.ipynb
+[I 2023-11-20 04:40:07.965 ServerApp] Saving file at /code/Fulvestrant_response.ipynb
+[I 2023-11-20 04:41:13.313 ServerApp] Saving file at /code/Mitomycin-Fulvestrant_response.ipynb
+[I 2023-11-20 04:41:30.128 ServerApp] Saving file at /code/Gefitinib_response.ipynb
+[I 2023-11-20 04:41:39.235 ServerApp] Saving file at /code/Rapamycin-Gefitinib_response.ipynb
+[I 2023-11-20 04:42:05.671 ServerApp] Saving file at /code/Mitomycin_response.ipynb
+[E 2023-11-20 04:42:39.516 ServerApp] Uncaught exception GET /cw/a0986a31-244a-4043-bbac-a8f418aecce8/api/contents/data/challenge2_files/short_answers.txt/checkpoints?1700455359423 (10.0.187.60)
+    HTTPServerRequest(protocol='http', host='hackathon2023.radr-ai.com', method='GET', uri='/cw/a0986a31-244a-4043-bbac-a8f418aecce8/api/contents/data/challenge2_files/short_answers.txt/checkpoints?1700455359423', version='HTTP/1.1', remote_ip='10.0.187.60')
+    Traceback (most recent call last):
+      File "/opt/conda/lib/python3.10/site-packages/tornado/web.py", line 1786, in _execute
+        result = await result
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_server/services/contents/handlers.py", line 295, in get
+        checkpoints = await ensure_async(cm.list_checkpoints(path))
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_core/utils/__init__.py", line 182, in ensure_async
+        result = await obj
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_server/services/contents/manager.py", line 1079, in list_checkpoints
+        return await self.checkpoints.list_checkpoints(path)
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_server/services/contents/filecheckpoints.py", line 195, in list_checkpoints
+        os_path = self.checkpoint_path(checkpoint_id, path)
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_server/services/contents/filecheckpoints.py", line 119, in checkpoint_path
+        ensure_dir_exists(cp_dir)
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_core/utils/__init__.py", line 25, in ensure_dir_exists
+        os.makedirs(path, mode=mode)
+      File "/opt/conda/lib/python3.10/os.py", line 225, in makedirs
+        mkdir(name, mode)
+    OSError: [Errno 30] Read-only file system: '/root/capsule/data/challenge2_files/.ipynb_checkpoints'
+[W 2023-11-20 04:42:39.517 ServerApp] wrote error: 'Unhandled error'
+    Traceback (most recent call last):
+      File "/opt/conda/lib/python3.10/site-packages/tornado/web.py", line 1786, in _execute
+        result = await result
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_server/services/contents/handlers.py", line 295, in get
+        checkpoints = await ensure_async(cm.list_checkpoints(path))
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_core/utils/__init__.py", line 182, in ensure_async
+        result = await obj
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_server/services/contents/manager.py", line 1079, in list_checkpoints
+        return await self.checkpoints.list_checkpoints(path)
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_server/services/contents/filecheckpoints.py", line 195, in list_checkpoints
+        os_path = self.checkpoint_path(checkpoint_id, path)
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_server/services/contents/filecheckpoints.py", line 119, in checkpoint_path
+        ensure_dir_exists(cp_dir)
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_core/utils/__init__.py", line 25, in ensure_dir_exists
+        os.makedirs(path, mode=mode)
+      File "/opt/conda/lib/python3.10/os.py", line 225, in makedirs
+        mkdir(name, mode)
+    OSError: [Errno 30] Read-only file system: '/root/capsule/data/challenge2_files/.ipynb_checkpoints'
+[E 2023-11-20 04:42:39.517 ServerApp] {
+      "Host": "hackathon2023.radr-ai.com",
+      "Accept": "*/*",
+      "Referer": "https://hackathon2023.radr-ai.com/cw/a0986a31-244a-4043-bbac-a8f418aecce8/lab/tree/data/challenge2_files/short_answers.txt",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15"
+    }
+[E 2023-11-20 04:42:39.517 ServerApp] 500 GET /cw/a0986a31-244a-4043-bbac-a8f418aecce8/api/contents/data/challenge2_files/short_answers.txt/checkpoints?1700455359423 (85370400e8f74876ba83384ee30476b3@10.0.187.60) 1.03ms referer=https://hackathon2023.radr-ai.com/cw/a0986a31-244a-4043-bbac-a8f418aecce8/lab/tree/data/challenge2_files/short_answers.txt
+[E 2023-11-20 04:42:39.654 ServerApp] Uncaught exception GET /cw/a0986a31-244a-4043-bbac-a8f418aecce8/api/contents/data/challenge2_files/short_answers.txt/checkpoints?1700455359425 (10.0.187.60)
+    HTTPServerRequest(protocol='http', host='hackathon2023.radr-ai.com', method='GET', uri='/cw/a0986a31-244a-4043-bbac-a8f418aecce8/api/contents/data/challenge2_files/short_answers.txt/checkpoints?1700455359425', version='HTTP/1.1', remote_ip='10.0.187.60')
+    Traceback (most recent call last):
+      File "/opt/conda/lib/python3.10/site-packages/tornado/web.py", line 1786, in _execute
+        result = await result
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_server/services/contents/handlers.py", line 295, in get
+        checkpoints = await ensure_async(cm.list_checkpoints(path))
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_core/utils/__init__.py", line 182, in ensure_async
+        result = await obj
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_server/services/contents/manager.py", line 1079, in list_checkpoints
+        return await self.checkpoints.list_checkpoints(path)
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_server/services/contents/filecheckpoints.py", line 195, in list_checkpoints
+        os_path = self.checkpoint_path(checkpoint_id, path)
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_server/services/contents/filecheckpoints.py", line 119, in checkpoint_path
+        ensure_dir_exists(cp_dir)
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_core/utils/__init__.py", line 25, in ensure_dir_exists
+        os.makedirs(path, mode=mode)
+      File "/opt/conda/lib/python3.10/os.py", line 225, in makedirs
+        mkdir(name, mode)
+    OSError: [Errno 30] Read-only file system: '/root/capsule/data/challenge2_files/.ipynb_checkpoints'
+[W 2023-11-20 04:42:39.654 ServerApp] wrote error: 'Unhandled error'
+    Traceback (most recent call last):
+      File "/opt/conda/lib/python3.10/site-packages/tornado/web.py", line 1786, in _execute
+        result = await result
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_server/services/contents/handlers.py", line 295, in get
+        checkpoints = await ensure_async(cm.list_checkpoints(path))
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_core/utils/__init__.py", line 182, in ensure_async
+        result = await obj
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_server/services/contents/manager.py", line 1079, in list_checkpoints
+        return await self.checkpoints.list_checkpoints(path)
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_server/services/contents/filecheckpoints.py", line 195, in list_checkpoints
+        os_path = self.checkpoint_path(checkpoint_id, path)
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_server/services/contents/filecheckpoints.py", line 119, in checkpoint_path
+        ensure_dir_exists(cp_dir)
+      File "/opt/conda/lib/python3.10/site-packages/jupyter_core/utils/__init__.py", line 25, in ensure_dir_exists
+        os.makedirs(path, mode=mode)
+      File "/opt/conda/lib/python3.10/os.py", line 225, in makedirs
+        mkdir(name, mode)
+    OSError: [Errno 30] Read-only file system: '/root/capsule/data/challenge2_files/.ipynb_checkpoints'
+[E 2023-11-20 04:42:39.654 ServerApp] {
+      "Host": "hackathon2023.radr-ai.com",
+      "Accept": "*/*",
+      "Referer": "https://hackathon2023.radr-ai.com/cw/a0986a31-244a-4043-bbac-a8f418aecce8/lab/tree/data/challenge2_files/short_answers.txt",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15"
+    }
+[E 2023-11-20 04:42:39.654 ServerApp] 500 GET /cw/a0986a31-244a-4043-bbac-a8f418aecce8/api/contents/data/challenge2_files/short_answers.txt/checkpoints?1700455359425 (85370400e8f74876ba83384ee30476b3@10.0.187.60) 0.96ms referer=https://hackathon2023.radr-ai.com/cw/a0986a31-244a-4043-bbac-a8f418aecce8/lab/tree/data/challenge2_files/short_answers.txt
+[I 2023-11-20 04:43:12.845 ServerApp] Saving file at /code/Rapamycin_response.ipynb
+[I 2023-11-20 05:16:56.196 ServerApp] Uploading file to /results/CodeShark_short_answers.txt
+[I 2023-11-20 05:17:19.417 ServerApp] Starting buffering for 43b344af-e948-4d0f-a432-11b272babbf3:091e4833-8cb7-4a75-a47c-a9bf529d6bd5
+[I 2023-11-20 05:17:19.418 ServerApp] Starting buffering for 1e7dff7f-a0b1-491d-be48-05e996bdd6c4:f79218e7-17fe-438f-a43a-e874cf50710f
+[I 2023-11-20 05:17:19.418 ServerApp] Starting buffering for 0161d96f-5579-4d44-a6a3-fe51d31d4bd9:520605b9-45ba-4f1d-9158-3bc633ad2107
+[I 2023-11-20 05:17:19.419 ServerApp] Starting buffering for 6a2dfafc-a762-402f-a68e-00e881b9cc41:d4bc1ee0-233c-4c87-9ba6-0c8d600b64da
+[I 2023-11-20 05:17:19.419 ServerApp] Starting buffering for 1f192e6b-6c57-4c7f-b027-3a78be70eba0:676d956a-32dc-4282-900b-e3d47d76619d
+[I 2023-11-20 05:17:19.419 ServerApp] Starting buffering for ab898c74-1d72-4b29-8751-adf1e7025b0e:09cf1ceb-b75b-46a1-a0e6-36bd5cadcb99
+[C 2023-11-20 05:17:19.765 ServerApp] received signal 15, stopping
+[I 2023-11-20 05:17:19.766 ServerApp] Shutting down 6 extensions
+[I 2023-11-20 05:17:19.766 ServerApp] Shutting down 6 kernels
+[I 2023-11-20 05:17:19.766 ServerApp] Kernel shutdown: 1e7dff7f-a0b1-491d-be48-05e996bdd6c4
+[I 2023-11-20 05:17:19.767 ServerApp] Kernel shutdown: 6a2dfafc-a762-402f-a68e-00e881b9cc41
+[I 2023-11-20 05:17:19.767 ServerApp] Kernel shutdown: 0161d96f-5579-4d44-a6a3-fe51d31d4bd9
+[I 2023-11-20 05:17:19.768 ServerApp] Kernel shutdown: ab898c74-1d72-4b29-8751-adf1e7025b0e
+[I 2023-11-20 05:17:19.768 ServerApp] Kernel shutdown: 1f192e6b-6c57-4c7f-b027-3a78be70eba0
+[I 2023-11-20 05:17:19.768 ServerApp] Kernel shutdown: 43b344af-e948-4d0f-a432-11b272babbf3
+
+  _   _          _      _
+ | | | |_ __  __| |__ _| |_ ___
+ | |_| | '_ \/ _` / _` |  _/ -_)
+  \___/| .__/\__,_\__,_|\__\___|
+       |_|
+                                                                           
+Read the migration plan to Notebook 7 to learn about the new features and the actions to take if you are using extensions.
+
+https://jupyter-notebook.readthedocs.io/en/latest/migrate_to_notebook7.html
+
+Please note that updating to Notebook 7 might break some of your extensions.
+

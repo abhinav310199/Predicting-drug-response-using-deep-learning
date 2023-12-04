@@ -1,0 +1,10 @@
+Unnamed: 0,Fulvestrant_response,Fulvestrant_response_features,Gefitinib_response,Gefitinib_response_features,Mitomycin_response,Mitomycin_response_features,Mitomycin-Fulvestrant_response,Mitomycin-Fulvestrant_response_features,Rapamycin-Gefitinib_response,Rapamycin-Gefitini_features,Rapamycin_response,Rapamycin_response_features
+Breast key feature,0,rna_LOC100505938,0,rna_B3GALT1,1,rna_ENTPD5,1,rna_SURF2,1,rna_PLEKHA3,1,rna_ADAMTS1
+BrainCNS key feature,0,rna_LOC100505938,0,rna_B3GALT1,1,rna_ENTPD5,1,rna_SURF2,1,rna_PLEKHA3,0,rna_ADAMTS1
+Bowel key feature,0,rna_LOC100505938,0,rna_B3GALT1,1,rna_ENTPD5,0,rna_SURF2,0,rna_PLEKHA3,0,rna_ADAMTS1
+Blood key feature,0,rna_LOC100505938,1,rna_B3GALT1,0,rna_ENTPD5,1,rna_SURF2,0,rna_PLEKHA3,1,rna_ADAMTS1
+Skin key feature,1,rna_LOC100505938,1,rna_B3GALT1,1,rna_ENTPD5,1,rna_SURF2,1,rna_PLEKHA3,0,rna_ADAMTS1
+Lung key feature,0,rna_LOC100505938,0,rna_B3GALT1,1,rna_ENTPD5,1,rna_SURF2,1,rna_PLEKHA3,1,rna_ADAMTS1
+Ovary key feature,0,rna_LOC100505938,0,rna_B3GALT1,0,rna_ENTPD5,1,rna_SURF2,1,rna_PLEKHA3,0,rna_ADAMTS1
+Prostate key feature,0,rna_LOC100505938,1,rna_B3GALT1,0,rna_ENTPD5,1,rna_SURF2,0,rna_PLEKHA3,0,rna_ADAMTS1
+Kidney key feature,0,rna_LOC100505938,0,rna_B3GALT1,0,rna_ENTPD5,0,rna_SURF2,1,rna_PLEKHA3,1,rna_ADAMTS1
